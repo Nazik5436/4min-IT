@@ -1,0 +1,36 @@
+body{
+    font-family: sans-serif;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.wrapper{
+    width: 935px;
+    margin: 0 auto;
+}
+
+.header{
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(130, 130, 130);
+    padding-top: 30px;
+}
+
+.headernavul{
+    margin: 0px;
+    padding-left: 205px;
+}
+
+.headernavultext{
+    color: rgb(130, 130, 130);
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+.headertext2{
+    margin-right: 0px;
+}
