@@ -34,3 +34,30 @@ body{
 .headertext2{
     margin-right: 0px;
 }
+
+.sect1title_h2title{
+    padding-top: 35px;
+}
+
+.img1{
+    margin: 0px 0x 500px;
+}
+
+.sect1{
+    padding-left: 480px;
+}
+
+.sect2{
+    padding: 86px 500px 500px 500px ;
+    background-color: rgb(9, 247, 37)
+    
+}
+
+.sect2titleh2__title{
+    padding-left: 389px;
+}
+
+.about_text{
+    padding-left: 30px;
+}
+
