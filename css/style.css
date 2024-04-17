@@ -1,9 +1,6 @@
 
 /* HEADER */
 
-.navigation{
-    
-}
 
 .header{
     text-align: center;
@@ -68,10 +65,27 @@
     
 }
 
-.papa{
-    padding-top: -10000px;
+/* section 3 */
+
+.section3_color{
+    font-family: sans-serif;
 }
 
-.mama{
-padding-top: 42px;
+.adventage_text{
+    text-align: center;
+    padding: 91px 0px 51px 0px;
+    color: rgb(7, 7, 7);
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0%;
+}
+
+.adventage_p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0%;
 }
