@@ -110,20 +110,39 @@
     text-align: center;
 }
 
-.section4_img1{
-    padding-left: 80px;
-    width: 936px;
-    height: 510px;
-}
 
-.linksbox{
+.section4_text{
     font-family: sans-serif;
-    text-align: center;
+    padding: 12px 0px 132px 0px;
     color: black;
     font-size: 20px;
     font-weight: 400;
     line-height: 0px;
     letter-spacing: 0%;
     text-align: center;
-    text-decoration-line: underline;
+
+}
+
+/* FOOTER */
+
+.footer_osnova{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.footer_contacts_text{
+    padding-top: 132px;
+    padding-bottom: 21px;
+    color: rgb(7, 7, 7);
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0%;
+}
+
+.footer_minor_text{
+    color: rgb(7, 7, 7);
+    font-weight: 400;
+    font-size: 18px;
+    height: 25px
 }
