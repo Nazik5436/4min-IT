@@ -1,4 +1,8 @@
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* HEADER */
 
 
@@ -169,8 +173,11 @@
 
 .footer_line_element{
     display: inline-block;
-    text-align: center;
-    padding-left: 250px;
-    padding-top: 30px;
-    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 31px;
+    padding-right: 35px;
+    margin-left: 15px;
+    padding-bottom: 100px;
 }
