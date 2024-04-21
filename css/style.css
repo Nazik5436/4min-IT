@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+}
+
+.osnova {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    background-color: rgb(238, 231, 235);
+    width: 793px;
+    height: 507px;
+}
+
+.header_text{
+    background-color: rgb(163, 200, 255);
+    width: 793px;
+    height: 82px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: rgb(255, 251, 250);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0%;
+    font-style: normal;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.form_osnova{
+    font-family: "Roboto", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 12px;
+    padding-bottom: 14px;
+    background-color: rgb(136, 131, 158);
+    width: 534px;
+    height: 45px;
+}
+
+.form_box{
+    height: 19px;
+    width: 19px;
+    padding: 12px 503px 14px 12px;
+}
+
+
