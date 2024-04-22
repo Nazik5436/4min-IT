@@ -40,10 +40,14 @@ body {
     margin: 0 auto;
     margin-top: 20px;
     padding-top: 12px;
-    padding-bottom: 14px;
+    padding-bottom: -5px;
     background-color: rgb(136, 131, 158);
     width: 534px;
     height: 45px;
+}
+
+.form_osnova:hover{
+    background-color: rgb(98, 94, 119);
 }
 
 .form_box{
@@ -52,4 +56,36 @@ body {
     padding: 12px 503px 14px 12px;
 }
 
-fdsfs
+.form_box1{
+    height: 19px;
+    width: 19px;
+}
+
+
+.form_osnova1{
+    font-family: "Roboto", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 1px;
+    padding-top: 12px;
+    padding-bottom: -5px;
+    background-color: rgb(136, 131, 158);
+    width: 534px;
+    height: 45px;
+}
+
+.form_osnova1:hover{
+    background-color: rgb(98, 94, 119);
+}
+
+.form_text{
+    margin-left: 5px;
+
+    
+}
