@@ -9,7 +9,7 @@ body {
     margin-bottom: 200px;
     background-color: rgb(238, 231, 235);
     width: 793px;
-    height: 750px;
+    height: 636px;
 }
 
 .header_text{
@@ -26,6 +26,7 @@ body {
     font-style: normal;
     text-align: center;
     padding-top: 50px;
+    margin-bottom: 30px;
 }
 
 .form_osnova{
@@ -38,7 +39,6 @@ body {
     text-align: left;
     position: relative;
     margin: 0 auto;
-    margin-top: 30px;
     padding-top: 12px;
     padding-bottom: 3;
     padding-left: 12px;
@@ -47,8 +47,14 @@ body {
     height: 45px;
 }
 
+.form_osnova:nth-child(even){
+    background-color: rgb(122, 117, 147); 
+}
+
 .form_osnova:hover{
     background-color: rgb(98, 94, 119);
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
 }
 
 .form_box{
@@ -62,120 +68,6 @@ body {
 }
 
 
-.form_osnova1{
-    font-family: "Roboto", sans-serif;
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 21px;
-    letter-spacing: 0%;
-    text-align: left;
-    position: relative;
-    margin: 0 auto;
-    margin-top: 2px;
-    padding-top: 12px;
-    padding-bottom: 3;
-    padding-left: 12px;
-    background-color: rgb(136, 131, 158);
-    width: 534px;
-    height: 45px;
-}
-
-.form_osnova1:hover{
-    background-color: rgb(98, 94, 119);
-}
-
-.form_osnova2{
-    font-family: "Roboto", sans-serif;
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 21px;
-    letter-spacing: 0%;
-    text-align: left;
-    position: relative;
-    margin: 0 auto;
-    margin-top: 2px;
-    padding-top: 12px;
-    padding-bottom: 3;
-    padding-left: 12px;
-    background-color: rgb(136, 131, 158);
-    width: 534px;
-    height: 45px;
-}
-
-.form_osnova2:hover{
-    background-color: rgb(98, 94, 119);
-}
-
-.form_osnova3{
-    font-family: "Roboto", sans-serif;
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 21px;
-    letter-spacing: 0%;
-    text-align: left;
-    position: relative;
-    margin: 0 auto;
-    margin-top: 2px;
-    padding-top: 12px;
-    padding-bottom: 3;
-    padding-left: 12px;
-    background-color: rgb(136, 131, 158);
-    width: 534px;
-    height: 45px;
-}
-
-.form_osnova3:hover{
-    background-color: rgb(98, 94, 119);
-}
-
-.form_osnova4{
-    font-family: "Roboto", sans-serif;
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 21px;
-    letter-spacing: 0%;
-    text-align: left;
-    position: relative;
-    margin: 0 auto;
-    margin-top: 2px;
-    padding-top: 12px;
-    padding-bottom: 3;
-    padding-left: 12px;
-    background-color: rgb(136, 131, 158);
-    width: 534px;
-    height: 45px;
-}
-
-.form_osnova4:hover{
-    background-color: rgb(98, 94, 119);
-}
-
-.form_osnova5{
-    font-family: "Roboto", sans-serif;
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 21px;
-    letter-spacing: 0%;
-    text-align: left;
-    position: relative;
-    margin: 0 auto;
-    margin-top: 2px;
-    padding-top: 12px;
-    padding-bottom: 3;
-    padding-left: 12px;
-    background-color: rgb(136, 131, 158);
-    width: 534px;
-    height: 45px;
-}
-
-.form_osnova5:hover{
-    background-color: rgb(98, 94, 119);
-}
 
 .form_text{
     margin-left: 5px;
