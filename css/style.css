@@ -177,9 +177,14 @@ body{
 .tipa_footer_img{
     width: 120px;
     height: 64px;
+    padding-left: 180px;
     padding-bottom: 80px;
     display: flex;
     text-align: center;
     justify-content: space-between;
     gap: 80px;
+}
+
+.raryban{
+    padding-bottom: 85px;
 }
