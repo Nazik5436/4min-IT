@@ -62,15 +62,18 @@ body {
     width: 19px;
 }
 
-.form_box1{
+.form_box:checked + .form_text{
     height: 19px;
     width: 19px;
+    text-decoration: line-through;
+    color: rgb(155, 150, 172);
 }
 
 
 
 .form_text{
     margin-left: 5px;
+    cursor: pointer;
 }
 
 .buton{
