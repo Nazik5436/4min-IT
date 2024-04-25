@@ -1,3 +1,7 @@
+body{
+    scroll-behavior: smooth;
+}
+
 .lightbg{
     background-color:  rgb(239, 241, 237);
 }
@@ -62,7 +66,114 @@
 .first_par{
     font-family: Inter;
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 300;
     margin-top: 30px;
     width: 496px;
+}
+
+.second{
+    background-color:  rgb(239, 241, 237);
+    display: flex;
+    justify-content: center;
+}
+
+.second_img{
+    padding-top: 100px;
+    margin-bottom: 100px;
+    width: 520px;
+    height: 600px;
+}
+
+.second_rabotai{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.second_par1{
+    color: rgb(80, 90, 91);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    margin-top: 200px;
+}
+
+.second_par_title{
+    color: rgb(80, 90, 91);
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 72.8px;
+    margin-top: 15px;
+}
+
+.second_par2{
+    color: rgb(51, 51, 51);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 32px;
+    margin-bottom: 184px;
+}
+
+.third{
+    background-color: rgb(80, 90, 91);
+    display: flex;
+    justify-content: center;
+}
+
+.third_rabotai{
+    display: flex;
+    justify-content: space-between;
+    gap: 115px;
+}
+
+.third_par1{
+    color: rgb(232, 235, 228);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    letter-spacing: 10%;
+    padding-top: 144px;
+}
+
+.third_title{
+    color: rgb(239, 241, 237);
+    font-family: Playfair Display;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 72.8px;
+    margin-top: 16px;
+}
+
+.third_par2{
+    color: rgb(232, 235, 228);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 32px;
+}
+
+.third_img{
+    padding-bottom: 100px;
+    padding-top: 80px;
+}
+
+.tipa_footer_par{
+    color: rgb(239, 241, 237);
+    font-family: Playfair Display;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 41.6px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.tipa_footer_img{
+    width: 120px;
+    height: 64px;
 }
