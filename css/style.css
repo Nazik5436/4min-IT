@@ -45,7 +45,7 @@ html {
     background-color: rgb(255, 255, 255);
     padding-left: 490px;
     color: rgb(7, 7, 7);
-    font-size: 47.34px;
+    font-size: 60px;
     font-weight: 700;
     line-height: 64px;
     letter-spacing: 0%;
@@ -58,9 +58,9 @@ html {
     padding-right: 262px;
     width: 936px;
     height: 381px;
-    text-align: center;
     display: flex;
     justify-content: center;
+    margin-left: 500px;
 }
 
 /* SECTION 2 */
