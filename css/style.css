@@ -1,0 +1,36 @@
+.lightbg{
+    background-color:  rgb(239, 241, 237);
+}
+
+.wrapper{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header{
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.header_nav{
+    width: 879px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_nav_item{
+    font-family: Inter;
+    font-weight: 600;
+    letter-spacing: 0%;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(80, 90, 91);
+}
+
+.header_nav_item:hover{
+    color: rgb(211, 96, 96);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
