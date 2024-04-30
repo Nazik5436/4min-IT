@@ -1,0 +1,13 @@
+.block {
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+}
+.block .block_item {
+  width: 200px;
+  height: 100px;
+  background-color: aqua;
+}
+.block .block_item:hover {
+  background-color: red;
+}
