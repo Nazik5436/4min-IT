@@ -41,8 +41,8 @@ body{
 .imgbg{
     background-image: url(/img/carlos-vaz-KP4bxnxAilU-unsplash\ 1first.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
+    background-size: 100%;
+    background-position-y: 21%;
     height: 100vh;
 }
 
