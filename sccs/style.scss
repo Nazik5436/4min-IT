@@ -1,0 +1,22 @@
+@import 'variable';
+
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 126px;
+    display: flex;
+
+    .header_left{
+        @include flex-center;
+        border-right: 1px solid rgb(230, 230, 230);;
+    }
+}
