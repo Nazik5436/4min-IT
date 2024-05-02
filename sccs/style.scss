@@ -21,6 +21,8 @@ body{
     margin: 0 auto;
 }
 
+                                            //   HEADER
+
 .header{
     height: 126px;
     display: flex;
@@ -98,6 +100,89 @@ body{
         padding-left: 5px;
         padding-right: 0px;
         @include flex-center;
+
+        .header_right_text{
+            font-family: Open Sans;
+        }
     }
 
+}
+
+
+                                            // MAIN
+
+@mixin dark_bgcolor{
+    background-color: rgba(10, 56, 51, 0.5);
+}                                            
+
+@mixin text-color{
+    color: rgb(255, 255, 255);
+} 
+
+                                            // SECTION_1
+                                                                                    
+.section_1{
+    @include dark_bgcolor;
+
+    .section_1_container1{
+        width: 625px;
+        padding-top: 205px;
+        padding-left: 300px;
+        padding-right: 995px;
+        padding-bottom: 315px
+    }
+}                                            
+
+.section_1_text{
+    @include text-color;
+
+    .section_1_par1{
+        font-family: Outfit;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+    .section_1_title{
+        font-family: Outfit;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 53px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 22px;
+    }
+
+    .section_1_par2{
+        width: 428px;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-bottom: 56px;
+    }
+
+
+}
+
+.section_1_container2{
+
+    .section_1_button{
+        @include text-color;
+        @include dark_bgcolor;
+        font-family: Outfit;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        height: 54px;
+        width: 192px;
+        border: none;
+        border: 1px solid white;
+    }
 }
