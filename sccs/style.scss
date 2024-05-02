@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth
+}
+
 @import 'variable';
 
 @mixin flex-center{
@@ -128,8 +132,6 @@ body{
         width: 625px;
         padding-top: 205px;
         padding-left: 300px;
-        padding-right: 995px;
-        padding-bottom: 315px
     }
 }                                            
 
@@ -179,10 +181,12 @@ body{
         font-weight: 700;
         line-height: 20px;
         letter-spacing: 0%;
+        margin-bottom: 205px;
         text-align: center;
         height: 54px;
         width: 192px;
         border: none;
         border: 1px solid white;
+
     }
 }
