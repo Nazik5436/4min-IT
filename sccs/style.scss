@@ -6,17 +6,98 @@
     align-items: center;
 }
 
+@mixin text($fw, $fs, $fcol){
+    font-weight: $fw;
+    font-size: $fs;
+    color: $fcol;
+}
+
+body{
+    font-family: Outfit;
+}
+
 .wrapper{
-    max-width: 1320px;
+    width: 1320px;
     margin: 0 auto;
 }
 
 .header{
     height: 126px;
     display: flex;
+    border-bottom: 1px solid $bgcolor;
+
 
     .header_left{
         @include flex-center;
-        border-right: 1px solid rgb(230, 230, 230);;
+        border-right: 1px solid $bgcolor;
+
+        .header_left_logo{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
     }
+
+    .header_up{
+        @include text(600, 14px, rgb(94, 94, 94));
+        display: flex;
+        justify-content: flex-start;
+        padding: 9px 0px 9px 0px;
+        border-bottom: 1px solid $bgcolor;
+
+
+        .header_up_item{
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding-left: 65px;
+            padding-right: 65px;
+            border-right: 1px solid $bgcolor;
+
+            .up_icon{
+                color: rgb(33, 111, 102);    
+            }
+        }
+
+        .header_up_item:last-child{
+            border: none;
+        }
+    }
+
+
+    .header_nav{
+        padding-left: 67px;
+        padding-top: 35px;
+        padding-bottom: 30px;
+        @include text(400, 16px, rgb(94, 94, 94));
+        .header_nav_list{
+            display: flex;
+            align-items: center;
+            gap: 75px;
+
+            .header_nav_list_link:hover{
+                cursor: pointer;
+                color: rgb(33, 111, 102);
+
+            }
+        }
+    }
+
+    .header_nav_list_text{
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .header_center{
+        border-right: 1px solid $bgcolor;
+    }
+
+    .header_right{
+        @include text(400, 16px, rgb(94, 94, 94));
+        border-left: 1px solid $bgcolor;
+        padding-left: 5px;
+        padding-right: 0px;
+        @include flex-center;
+    }
+
 }

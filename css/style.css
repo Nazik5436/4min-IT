@@ -1,5 +1,9 @@
+body {
+  font-family: Outfit;
+}
+
 .wrapper {
-  max-width: 1320px;
+  width: 1320px;
   margin: 0 auto;
 }
 
@@ -8,6 +12,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border-bottom: 1px solid rgb(230, 230, 230);
 }
 .header .header_left {
   display: -webkit-box;
@@ -20,4 +25,85 @@
       -ms-flex-align: center;
           align-items: center;
   border-right: 1px solid rgb(230, 230, 230);
+}
+.header .header_left .header_left_logo {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.header .header_up {
+  font-weight: 600;
+  font-size: 14px;
+  color: rgb(94, 94, 94);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 9px 0px 9px 0px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+.header .header_up .header_up_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+  padding-left: 65px;
+  padding-right: 65px;
+  border-right: 1px solid rgb(230, 230, 230);
+}
+.header .header_up .header_up_item .up_icon {
+  color: rgb(33, 111, 102);
+}
+.header .header_up .header_up_item:last-child {
+  border: none;
+}
+.header .header_nav {
+  padding-left: 67px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(94, 94, 94);
+}
+.header .header_nav .header_nav_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 75px;
+}
+.header .header_nav .header_nav_list .header_nav_list_link:hover {
+  cursor: pointer;
+  color: rgb(33, 111, 102);
+}
+.header .header_nav_list_text {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+}
+.header .header_center {
+  border-right: 1px solid rgb(230, 230, 230);
+}
+.header .header_right {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(94, 94, 94);
+  border-left: 1px solid rgb(230, 230, 230);
+  padding-left: 5px;
+  padding-right: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
