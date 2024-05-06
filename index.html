@@ -3,11 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="osnova_container">
+        <form>
+            <div class="form_position">
+                <label class="text_for_form" for="username">Username</label>
+                <br>
+                <input type="text" id="username" name="username" class="text_form_input">
+                <br>
+                <label class="text_for_form" for="password">Password</label>
+                <br>
+                <input type="password" id="password" name="password" class="text_form_input" minlength="4" maxlength="12">
+                <br>
+                <label class="text_for_form_1" for="password">Your password is between 4 and 12 characters</label>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
