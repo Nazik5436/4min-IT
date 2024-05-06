@@ -18,6 +18,7 @@ body {
 @mixin text_form{
     color: rgb(102, 102, 102);
     font-family: Noto Sans;
+    background: none;
     font-size: 12px;
     font-weight: 600;
     line-height: 18px;
@@ -31,8 +32,7 @@ body {
 }
 
 
-.form_position{
-    padding-top: 10px;
+
 
     .text_for_form{
         @include text_form;
@@ -41,6 +41,7 @@ body {
     .text_form_input{
         width: 564px;
         height: 40px;
+        background: none;
         margin-bottom: 32px;
         @include border_color;
         border-radius: 8px;
@@ -73,6 +74,7 @@ body {
     .text_for_form_1{
         color: rgb(102, 102, 102);
         font-family: Noto Sans;
+        background: none;
         font-size: 12px;
         font-weight: 400;
         line-height: 18px;
@@ -95,6 +97,9 @@ body {
         letter-spacing: 0%;
         text-align: left;
     }
-}
+
+    // RADIO-BUT
+    
+
 
 
