@@ -8,7 +8,7 @@ body {
     height: 1200px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     margin: 0 auto;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -25,11 +25,6 @@ body {
     letter-spacing: 0%;
     text-align: left;
     padding-bottom: 8px;
-
-    &:focus{
-        outline: none;
-        border-color: 1px  red;
-    }
 }
 
 @mixin border_color{
@@ -38,96 +33,79 @@ body {
 
 
 
+    .form_item{
+        padding-top: 92px;
+        display: flex;
+        flex-direction: column;
 
-    .text_for_form{
-        @include text_form;
+
+        .form_item_label{
+            @include text_form;
+        }
+
+        .form_item_input{
+            width: 564px;
+            height: 45px;
+            @include border_color;
+            border-radius: 8px;
+
+            &:focus{
+                outline: none;
+                border: 1px solid rgb(122, 92, 250);
+                border-radius: 8px;
+            }
+        }
     }
 
-    .text_form_input{
-        width: 564px;
-        height: 40px;
-        background: none;
-        margin-bottom: 32px;
-        @include border_color;
-        border-radius: 8px;
-        color: rgb(102, 102, 102);
-        font-family: Noto Sans;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0%;
-        text-align: left;
-        padding-left: 15px;
-    }
-
-
-    .text_form_input1{
-        width: 564px;
-        height: 40px;
-        @include border_color;
-        border-radius: 8px;
-        color: rgb(102, 102, 102);
-        font-family: Noto Sans;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0%;
-        text-align: left;
-        padding-left: 15px;
-    }
-
-    .text_for_form_1{
-        color: rgb(102, 102, 102);
-        font-family: Noto Sans;
-        background: none;
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 18px;
-        letter-spacing: 0%;
-        text-align: left;
-    }
+      
 
                                                                 // checkbox
 
-    .checkbox{
-        display: none;
-    }
+    .checkbox_div{
+        padding-top: 32px;
+    
+        .checkbox{
+            display: none;
+        }
 
-    .fake{
-        display: inline-block;
-        width: 24px;
-        height: 24px;
-        border-color: 1px solid rgb(21, 0, 255);
-        border-radius: 8px;
-        position: relative;
-    }
+        .fake{
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            @include border_color;
+            border-radius: 8px;
+            position: relative;
+        }
 
-    .fake::before{
-        content: "";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50% -50%);
-        display: block;
-        width: 10px;
-        height: 10px;
-        background-color: green;
-        opacity: 0;
-        transition: 1s;
-    }
+        .fake::before{
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: block;
+            width: 19px;
+            height: 19px;
+            background-color: rgb(122, 92, 250);
+            border-radius: 8px;
+            opacity: 0;
+            transition: 1s;
+            
+        }
 
-    .checkbox:checked + .fake::before{
-        opacity: 1;
-    }
+        .checkbox:checked + .fake::before{
+            opacity: 1;
+        }
 
-    .text{
-        color: rgb(102, 102, 102);
-        font-family: Noto Sans;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0%;
-        text-align: left;
+        .text{
+            color: rgb(102, 102, 102);
+            font-family: Noto Sans;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
     }
 
 

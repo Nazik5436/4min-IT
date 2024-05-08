@@ -12,44 +12,42 @@
 </head>
 <body>
     <div class="osnova_container">
-        <form>
+            <form>
 
             
                 <!-- TEXT FORM -->
-                <label class="text_for_form" for="username">Username</label>
-                <br>
-                <input type="text" id="username" name="username" placeholder="Enter username" class="text_form_input">
-                <br>
-                <label class="text_for_form" for="password">Password</label>
-                <br>
-                <input type="password" id="password" name="password" placeholder="Enter password" class="text_form_input1" minlength="4" maxlength="12">
-                <br>
-                <label class="text_for_form_1" for="password">Your password is between 4 and 12 characters</label>
-                <br>
+                <div class="form_item">
+                    <label for="text" class="form_item_label" >Username</label>
+                    <input type="text" name="text" id="text" class="form_item_input">
+                    
+                </div>
                 <!-- checkbox -->
-                <label class="label">
-                    <input type="checkbox" class="checkbox">
-                    <span class="fake"></span>
-                    <span class="text">Textvcxvcv</span>
-                </label>
-                <br>
+                <div class="checkbox_div">
+                    <label class="label">
+                        <input type="checkbox" class="checkbox">
+                        <span class="fake"></span>
+                        <span class="text">Remember me</span>
+                    </label>
+                    <br>
+                </div>
                 <!-- RADIO-BUT -->
-                <input type="radio" id="option1" name="option" value="option1">
-                <label for="option1">Option 1</label><br>
-                <input type="radio" id="option2" name="option" value="option2">
-                <label for="option2">Option 2</label><br>
-                <input type="radio" id="option3" name="option" value="option3">
-                <label for="option3">Option 3</label><br>
-                
-                
-            
-
-            
+                <div class="radio_but_div">
+                    <input type="radio" id="option1" name="option" value="option1">
+                    <label for="option1">Option 1</label><br>
+                    <input type="radio" id="option2" name="option" value="option2">
+                    <label for="option2">Option 2</label><br>
+                    <input type="radio" id="option3" name="option" value="option3">
+                    <label for="option3">Option 3</label><br>
+                </div>
                 
             
 
+            
+                
+            
 
-        </form>
+
+            </form>
     </div>
 </body>
 </html>
