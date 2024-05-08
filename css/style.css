@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(121, 92, 250, 0.499);
+  background-color: rgba(121, 92, 250, 0.356);
 }
 
 .osnova_container {
@@ -47,8 +47,50 @@ body {
   height: 45px;
   border: 1px solid rgb(204, 204, 204);
   border-radius: 8px;
+  margin-bottom: 32px;
+  color: rgb(102, 102, 102);
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-left: 8px;
 }
 .form_item .form_item_input:focus {
+  outline: none;
+  border: 1px solid rgb(122, 92, 250);
+  border-radius: 8px;
+}
+
+.form_item_label_1 {
+  color: rgb(102, 102, 102);
+  font-family: Noto Sans;
+  background: none;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-bottom: 8px;
+}
+
+.form_item_input_1 {
+  width: 564px;
+  height: 45px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 8px;
+  margin-bottom: 32px;
+  color: rgb(102, 102, 102);
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-left: 8px;
+}
+.form_item_input_1:focus {
   outline: none;
   border: 1px solid rgb(122, 92, 250);
   border-radius: 8px;
