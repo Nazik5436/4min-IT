@@ -25,6 +25,11 @@ body {
     letter-spacing: 0%;
     text-align: left;
     padding-bottom: 8px;
+
+    &:focus{
+        outline: none;
+        border-color: 1px  red;
+    }
 }
 
 @mixin border_color{
@@ -82,13 +87,40 @@ body {
         text-align: left;
     }
 
+                                                                // checkbox
+
     .checkbox{
+        display: none;
+    }
+
+    .fake{
+        display: inline-block;
         width: 24px;
         height: 24px;
+        border-color: 1px solid rgb(21, 0, 255);
+        border-radius: 8px;
         position: relative;
     }
 
-    .checkbox_text{
+    .fake::before{
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% -50%);
+        display: block;
+        width: 10px;
+        height: 10px;
+        background-color: green;
+        opacity: 0;
+        transition: 1s;
+    }
+
+    .checkbox:checked + .fake::before{
+        opacity: 1;
+    }
+
+    .text{
         color: rgb(102, 102, 102);
         font-family: Noto Sans;
         font-size: 16px;
@@ -98,7 +130,15 @@ body {
         text-align: left;
     }
 
+
+    // YAKAS-BUT
+
+
+
+
+
     // RADIO-BUT
+    
     
 
 

@@ -32,6 +32,10 @@ body {
   text-align: left;
   padding-bottom: 8px;
 }
+.text_for_form:focus {
+  outline: none;
+  border-color: 1px red;
+}
 
 .text_form_input {
   width: 564px;
@@ -77,12 +81,39 @@ body {
 }
 
 .checkbox {
-  width: 24px;
-  height: 24px;
+  display: none;
+}
+
+.fake {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid red;
+  border-radius: 8px;
   position: relative;
 }
 
-.checkbox_text {
+.fake::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50% -50%);
+          transform: translate(-50% -50%);
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.checkbox:checked + .fake::before {
+  opacity: 1;
+}
+
+.text {
   color: rgb(102, 102, 102);
   font-family: Noto Sans;
   font-size: 16px;
