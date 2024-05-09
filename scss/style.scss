@@ -5,7 +5,7 @@ body {
 .osnova_container {
     background-color: white;
     width: 760px;
-    height: 1200px;
+    height: 1060px;
     display: flex;
     justify-content: center;
     align-items: start;
@@ -93,6 +93,8 @@ body {
 
                                                                 // checkbox
 
+
+                                                                
     .checkbox_div{
         padding-top: 32px;
     
@@ -131,19 +133,184 @@ body {
 
         .text{
             @include text2;
+            margin-left: 8px;
         }
     }
 
 
-    // YAKAS-BUT
+    // TOGLE-BUT
 
+    .togle_but_div{
+        padding-top: 32px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    
 
-// gd
+        .toggle_but{
+            background-color: white;
+            @include border_color;
+            width: 49px;
+            height: 24px;
+            border-radius: 200px;
+            cursor: pointer;
+            position: relative;
+            transition: 0.2s;
+        }
+
+        .toggle_but::before{
+            position: absolute;
+            content: "";
+            width: 19px;
+            height: 19px;
+            border-radius: 50%;
+            background-color: rgb(122, 92, 250);
+            margin: 3px;
+            transition: 0.2s;
+        }
+
+        .check:checked + .toggle_but{
+            background-color: white; 
+        }
+
+        .check:checked + .toggle_but::before{
+            transform: translateX(24px); 
+        }
+
+        .check{
+            display: none;
+        }
+
+        .text{
+            @include text2;
+            margin-left: 8px;
+        }
+    }
+
 
 
     // RADIO-BUT
     
-    
+    .radio_div_1{
+        padding-top: 32px;
 
+        .radio{
+            display: none;
+        }
 
+        .fake{
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            @include border_color;
+            border-radius: 50%;
+            position: relative;
+        }
+
+        .fake::before{
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: block;
+            width: 10px;
+            height: 10px;
+            background-color: rgb(122, 92, 250);
+            border-radius: 50%;
+            opacity: 0;
+            transition: 1s;
+            
+        }
+
+        .radio:checked + .fake::before{
+            opacity: 1;
+        }
+
+        .text{
+            @include text2;
+            margin-left: 8px;
+        }
+    }
+
+    // DROPDOWN
+
+    .dropdown_div{
+        padding-top: 32px;
+
+        .dropdown_select{
+            width: 564px;
+            height: 56px;
+            @include border_color;
+            border-radius: 8px 8px 0px 0px;
+
+                &:focus{
+                outline: none;
+                border: 2px solid rgb(122, 92, 250);
+                border-radius: 8px 8px 0px 0px;
+
+                
+
+                & option {
+                    width: 564px;
+                    height: 56px;
+                    border: 2px solid rgb(122, 92, 250);
+                border-radius: 8px 8px 0px 0px;
+                    background-color: rgb(122, 92, 250);
+                    color: beige;
+
+                    option{
+                        width: 564px;
+                        height: 56px;
+                    }
+                    
+                  }
+            }
+        }
+
+        
+    }
+
+    // BUTTON
+
+    .button_position{
+        padding-top: 250px;
+        width: 564px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .button_text{
+            width: 172px;
+            height: 56px;
+            background: none;
+            border: none;
+            border-radius: 8px;
+            border: 1px solid rgb(122, 92, 250);
+            color: rgb(122, 92, 250);
+            font-family: Noto Sans;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0%;
+            text-align: center;
+        }
+
+        .button_text_1{
+            width: 172px;
+            height: 56px;
+            background: none;
+            border: none;
+            border-radius: 8px;
+            background-color: rgb(122, 92, 250);
+            border: 1px solid rgb(122, 92, 250);
+            color: rgb(255, 255, 255);
+            font-family: Noto Sans;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0%;
+            text-align: center;
+        }
+    }
 

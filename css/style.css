@@ -5,7 +5,7 @@ body {
 .osnova_container {
   background-color: white;
   width: 760px;
-  height: 1200px;
+  height: 1060px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -137,4 +137,176 @@ body {
   line-height: 24px;
   letter-spacing: 0%;
   text-align: left;
+  margin-left: 8px;
+}
+
+.togle_but_div {
+  padding-top: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.togle_but_div .toggle_but {
+  background-color: white;
+  border: 1px solid rgb(204, 204, 204);
+  width: 49px;
+  height: 24px;
+  border-radius: 200px;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.togle_but_div .toggle_but::before {
+  position: absolute;
+  content: "";
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  background-color: rgb(122, 92, 250);
+  margin: 3px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.togle_but_div .check:checked + .toggle_but {
+  background-color: white;
+}
+.togle_but_div .check:checked + .toggle_but::before {
+  -webkit-transform: translateX(24px);
+          transform: translateX(24px);
+}
+.togle_but_div .check {
+  display: none;
+}
+.togle_but_div .text {
+  color: rgb(102, 102, 102);
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 8px;
+}
+
+.radio_div_1 {
+  padding-top: 32px;
+}
+.radio_div_1 .radio {
+  display: none;
+}
+.radio_div_1 .fake {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 50%;
+  position: relative;
+}
+.radio_div_1 .fake::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: rgb(122, 92, 250);
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.radio_div_1 .radio:checked + .fake::before {
+  opacity: 1;
+}
+.radio_div_1 .text {
+  color: rgb(102, 102, 102);
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 8px;
+}
+
+.dropdown_div {
+  padding-top: 32px;
+}
+.dropdown_div .dropdown_select {
+  width: 564px;
+  height: 56px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 8px 8px 0px 0px;
+}
+.dropdown_div .dropdown_select:focus {
+  outline: none;
+  border: 2px solid rgb(122, 92, 250);
+  border-radius: 8px 8px 0px 0px;
+}
+.dropdown_div .dropdown_select:focus option {
+  width: 564px;
+  height: 56px;
+  border: 2px solid rgb(122, 92, 250);
+  border-radius: 8px 8px 0px 0px;
+  background-color: rgb(122, 92, 250);
+  color: beige;
+}
+.dropdown_div .dropdown_select:focus option option {
+  width: 564px;
+  height: 56px;
+}
+
+.button_position {
+  padding-top: 250px;
+  width: 564px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.button_position .button_text {
+  width: 172px;
+  height: 56px;
+  background: none;
+  border: none;
+  border-radius: 8px;
+  border: 1px solid rgb(122, 92, 250);
+  color: rgb(122, 92, 250);
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.button_position .button_text_1 {
+  width: 172px;
+  height: 56px;
+  background: none;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(122, 92, 250);
+  border: 1px solid rgb(122, 92, 250);
+  color: rgb(255, 255, 255);
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
 }
