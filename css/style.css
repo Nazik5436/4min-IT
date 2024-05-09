@@ -247,6 +247,14 @@ body {
   height: 56px;
   border: 1px solid rgb(204, 204, 204);
   border-radius: 8px 8px 0px 0px;
+  color: rgb(51, 51, 51);
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-left: 8px;
 }
 .dropdown_div .dropdown_select:focus {
   outline: none;
@@ -256,10 +264,16 @@ body {
 .dropdown_div .dropdown_select:focus option {
   width: 564px;
   height: 56px;
-  border: 2px solid rgb(122, 92, 250);
+  border: 2px solid rgb(204, 204, 204);
   border-radius: 8px 8px 0px 0px;
   background-color: rgb(122, 92, 250);
-  color: beige;
+  color: rgb(255, 255, 255);
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
 }
 .dropdown_div .dropdown_select:focus option option {
   width: 564px;
