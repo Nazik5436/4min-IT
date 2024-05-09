@@ -275,10 +275,6 @@ body {
   letter-spacing: 0%;
   text-align: left;
 }
-.dropdown_div .dropdown_select:focus option option {
-  width: 564px;
-  height: 56px;
-}
 
 .button_position {
   padding-top: 250px;
