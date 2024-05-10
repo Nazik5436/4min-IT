@@ -5,7 +5,7 @@ body {
 .osnova_container {
   background-color: white;
   width: 760px;
-  height: 1060px;
+  height: 900px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -263,7 +263,7 @@ body {
 }
 
 .button_position {
-  padding-top: 250px;
+  padding-top: 32px;
   width: 564px;
   display: -webkit-box;
   display: -ms-flexbox;
