@@ -8,20 +8,44 @@ body {
   margin: 0 auto;
 }
 
-.first {
+.header_osnova {
+  background-color: rgb(254, 247, 183);
+  padding-top: 10px;
+}
+.first_section_osnova {
+  background-color: rgb(254, 247, 183);
+  width: 100%;
+  padding-left: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  margin: 0 auto;
+}
+.first_section_osnova .first {
+  width: 841px;
+  background-color: rgb(254, 247, 183);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   gap: 10px;
   padding: 20px 0px;
 }
-.first .firstleft {
+.first_section_osnova .first .firstleft {
   max-width: 361px;
 }
-.first .firstleft .firstlefttitle {
+.first_section_osnova .first .firstleft .firstlefttitle {
   color: rgb(32, 32, 43);
   font-family: sans-serif;
   font-size: 66px;
@@ -29,24 +53,25 @@ body {
   margin-bottom: 34px;
 }
 @media screen and (max-width: 800px) {
-  .first .firstleft .firstlefttitle {
+  .first_section_osnova .first .firstleft .firstlefttitle {
     font-size: 48px;
   }
 }
 @media screen and (max-width: 690px) {
-  .first .firstleft .firstlefttitle {
+  .first_section_osnova .first .firstleft .firstlefttitle {
     font-size: 51px;
   }
 }
-.first .firstleft .firstlefttext {
+.first_section_osnova .first .firstleft .firstlefttext {
   color: rgb(47, 47, 47);
   font-size: 18px;
   font-weight: 600;
   line-height: 26px;
   letter-spacing: 0.11px;
   margin-bottom: 50px;
+  padding-right: 15px;
 }
-.first .firstleft .firstleftbtn {
+.first_section_osnova .first .firstleft .firstleftbtn {
   border-radius: 6px;
   width: 208px;
   height: 45px;
@@ -54,14 +79,15 @@ body {
   font-size: 18px;
   background: rgb(19, 18, 85);
 }
-.first .firstright {
+.first_section_osnova .first .firstright {
   max-width: 442px;
+  padding-bottom: 55px;
 }
 @media screen and (max-width: 690px) {
-  .first .firstright {
+  .first_section_osnova .first .firstright {
     display: none;
   }
 }
-.first .firstright .firstrightimg {
+.first_section_osnova .first .firstright .firstrightimg {
   width: 100%;
 }
