@@ -8,11 +8,28 @@ body {
   margin: 0 auto;
 }
 
-.header_osnova {
+.first_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.first_block .header_osnova {
   background-color: rgb(254, 247, 183);
   padding-top: 10px;
 }
-.first_section_osnova {
+.first_block .header_osnova .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.first_block .first_section_osnova {
   background-color: rgb(254, 247, 183);
   width: 100%;
   padding-left: 8px;
@@ -27,7 +44,7 @@ body {
           align-items: start;
   margin: 0 auto;
 }
-.first_section_osnova .first {
+.first_block .first_section_osnova .first {
   width: 841px;
   background-color: rgb(254, 247, 183);
   display: -webkit-box;
@@ -42,10 +59,10 @@ body {
   gap: 10px;
   padding: 20px 0px;
 }
-.first_section_osnova .first .firstleft {
+.first_block .first_section_osnova .first .firstleft {
   max-width: 361px;
 }
-.first_section_osnova .first .firstleft .firstlefttitle {
+.first_block .first_section_osnova .first .firstleft .firstlefttitle {
   color: rgb(32, 32, 43);
   font-family: sans-serif;
   font-size: 66px;
@@ -53,16 +70,16 @@ body {
   margin-bottom: 34px;
 }
 @media screen and (max-width: 800px) {
-  .first_section_osnova .first .firstleft .firstlefttitle {
+  .first_block .first_section_osnova .first .firstleft .firstlefttitle {
     font-size: 48px;
   }
 }
 @media screen and (max-width: 690px) {
-  .first_section_osnova .first .firstleft .firstlefttitle {
+  .first_block .first_section_osnova .first .firstleft .firstlefttitle {
     font-size: 51px;
   }
 }
-.first_section_osnova .first .firstleft .firstlefttext {
+.first_block .first_section_osnova .first .firstleft .firstlefttext {
   color: rgb(47, 47, 47);
   font-size: 18px;
   font-weight: 600;
@@ -71,7 +88,7 @@ body {
   margin-bottom: 50px;
   padding-right: 15px;
 }
-.first_section_osnova .first .firstleft .firstleftbtn {
+.first_block .first_section_osnova .first .firstleft .firstleftbtn {
   border-radius: 6px;
   width: 208px;
   height: 45px;
@@ -79,15 +96,15 @@ body {
   font-size: 18px;
   background: rgb(19, 18, 85);
 }
-.first_section_osnova .first .firstright {
+.first_block .first_section_osnova .first .firstright {
   max-width: 442px;
   padding-bottom: 55px;
 }
 @media screen and (max-width: 690px) {
-  .first_section_osnova .first .firstright {
+  .first_block .first_section_osnova .first .firstright {
     display: none;
   }
 }
-.first_section_osnova .first .firstright .firstrightimg {
+.first_block .first_section_osnova .first .firstright .firstrightimg {
   width: 100%;
 }
