@@ -188,20 +188,15 @@
   border-radius: 8px 8px;
   padding-bottom: 90px;
   padding-right: 5px;
-  padding-left: 130px;
+  padding-left: 50px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1000px) {
   .second .second_right .second_img {
-    width: 300px;
+    padding-left: 0px;
   }
 }
 @media screen and (max-width: 700px) {
   .second .second_right .second_img {
-    padding-left: 0px;
-  }
-}
-@media screen and (max-width: 800px) {
-  .second .second_right .second_img {
-    padding-left: 0px;
+    display: none;
   }
 }
