@@ -29,11 +29,6 @@
         gap: 45px;
         padding: 20px 5px;
         
-
-        .logo_img{
-            
-        }
-        
         .icon{
             font-weight: 600;
         
@@ -136,7 +131,6 @@
     .second_left{
         align-items: center;
         max-width: 354px;
-        padding-right: 150px;
 
         .second_title{
             color: rgb(0, 0, 0);
@@ -150,6 +144,7 @@
         }
 
         .second_par{
+            width: 350px;
             color: rgb(19, 18, 85);
             font-family: Lato;
             font-size: 18px;
@@ -181,18 +176,31 @@
     }
 
     .second_right{
+        
 
         .second_img{
-            width: 347.95px;
+            width: 347px;
             height: 297px;
             border-radius: 8px;
             padding-bottom: 90px;
             padding-right: 5px;
+            padding-left: 130px;
             
             @media screen and (max-width: 400px){
-                width: 270px;
+                width: 300px;
+                
+            }
+
+            @media screen and (max-width: 700px){
+                padding-left: 0px;
+            }
+
+            @media screen and (max-width: 800px){
+                padding-left: 0px;
             }
         }
     } 
 }
+
+
 
