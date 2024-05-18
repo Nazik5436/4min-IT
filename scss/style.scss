@@ -14,24 +14,37 @@ body{
      background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(249,255,0,1) 100%);
      height: 800px;
 
-     @media screen and (max-width: 690px){
-         height: 550px;
-     }
+    @media screen and (max-width: 690px){
+        height: 550px;
+    }
 
-     @media screen and (max-width: 400px){
-         height: 630px;
-     }
+    @media screen and (max-width: 400px){
+        height: 630px;
+    }
 
 
+<<<<<<< HEAD
      .header{
         padding: 35px 0px;
         display: flex;
         justify-content: space-between;
+=======
+    .header{
+>>>>>>> 806da70e3423d971a8b04e90e62e1c00cdced43f
         
         .icon{
             font-weight: 600;
             font-size: 36px;
+<<<<<<< HEAD
     }
+=======
+
+        }
+
+        padding: 35px 0px;
+        display: flex;
+        justify-content: space-between;
+>>>>>>> 806da70e3423d971a8b04e90e62e1c00cdced43f
     }
 
     .first{
@@ -91,6 +104,13 @@ body{
                 color: white;
                 font-size: 18px;
                 background: rgb(19, 18, 85);
+
+                &:hover{
+                    cursor: pointer;
+                    color: rgb(19, 18, 85);
+                    background-color: white;
+                    border: 2px solid rgb(19, 18, 85);
+                }
             }
         }
 

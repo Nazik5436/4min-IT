@@ -94,6 +94,12 @@ body {
   font-size: 18px;
   background: rgb(19, 18, 85);
 }
+.firstbg .first .firstleft .firstleftbtn:hover {
+  cursor: pointer;
+  color: rgb(19, 18, 85);
+  background-color: white;
+  border: 2px solid rgb(19, 18, 85);
+}
 .firstbg .first .firstright {
   max-width: 442px;
 }
