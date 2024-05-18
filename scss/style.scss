@@ -23,24 +23,15 @@ body{
      }
 
 
-    .header{
+     .header{
+        padding: 35px 0px;
         display: flex;
         justify-content: space-between;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-left: 10px;
-        gap: 50px;
-        width: 15px;
-
-        .logo_img{
-            
-        }
         
         .icon{
             font-weight: 600;
-            padding-right: 0px;
-            
-        }
+            font-size: 36px;
+    }
     }
 
     .first{
