@@ -1,0 +1,105 @@
+.wrapper{
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+                                            // HEADER
+
+
+@mixin nav_links{
+    color: rgb(75, 81, 98);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 122%;
+    letter-spacing: 0%;
+    text-align: center;
+    }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+    .logo{
+        margin: 0px 60px 0px 32px;
+        height: 40px;
+       
+    }
+
+    .logo:hover{
+        border:2px dashed lightgray;
+    }
+
+    .nav_display{
+        padding-top: 10px;
+
+        .nav_links{
+            margin-right: 54px;
+            @include nav_links;
+        }
+    }
+
+    .header_btn_display{
+
+        .header_btn1_style{
+            width: 127px;
+            height: 44px;
+            cursor: pointer;
+            border-radius: 8px;
+            border: none;
+            background: none;
+            border: 1px solid rgb(182, 209, 251);
+            color: rgb(56, 127, 245);
+            font-family: DM Sans;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 126%;
+            letter-spacing: 0%;
+            transition: transform 1s ease;
+            margin-right: 10px;
+        }
+
+        .header_btn1_style:hover{
+            color: white;
+            background-color: rgb(56, 127, 245);
+            transform: scale(1.1);
+        }
+
+        .header_btn2_style{
+            width: 177px;
+            height: 44px;
+            cursor: pointer;
+            border-radius: 8px;
+            border: none;
+            background: rgb(56, 127, 245);
+            color: rgb(255, 255, 255);
+            font-family: DM Sans;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 126%;
+            letter-spacing: 0%;
+            transition: transform 1s ease;
+        }
+
+        .header_btn2_style:hover{
+            color: rgb(56, 127, 245);
+            background: white;
+            border: 1px solid rgb(182, 209, 251);
+            transform: scale(1.1);
+        }
+    }
+}
+
+.hr_style{
+    color: lightgray;
+    width: 1400px;
+
+    @media only screen and (min-width: 1200px) {
+        width: 900px;
+    }
+}
+
