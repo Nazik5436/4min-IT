@@ -24,26 +24,60 @@
     justify-content: space-between;
     padding: 30px;
 
+    @media screen and (max-width: 630px) {
+        display: flex;
+        flex-direction: column;
+    }
+
     .logo{
-        margin: 0px 60px 0px 32px;
+        margin: 10px 60px 0px 0px;
         height: 40px;
-       
+
+        @media screen and (max-width: 1125px) {
+        }
+
+        @media screen and (max-width: 995px) {
+            margin: 0px 15px;
+        }
+
+        @media screen and (max-width: 1260px) {
+            margin: 10px 10px;
+        }
+
+        @media screen and (max-width: 530px) {
+            margin: 0px;
+        }
     }
 
     .logo:hover{
         border:2px dashed lightgray;
+        
     }
 
     .nav_display{
-        padding-top: 10px;
+        padding-top: 20px;
 
         .nav_links{
+            cursor: pointer;
             margin-right: 54px;
             @include nav_links;
+
+            @media screen and (max-width: 1125px) {
+                margin: 0px 15px;
+            }
+
+            @media screen and (max-width: 1260px) {
+                margin: 0px 5px;
+            }
+
+            @media screen and (max-width: 1246px) {
+               display: none;
+            }
         }
     }
 
     .header_btn_display{
+        padding-top: 10px;
 
         .header_btn1_style{
             width: 127px;
@@ -61,6 +95,13 @@
             letter-spacing: 0%;
             transition: transform 1s ease;
             margin-right: 10px;
+
+            @media screen and (max-width: 493px) {
+                margin-bottom: 15px;
+            }
+            @media screen and (max-width: 1260px) {
+                margin-left: 10px;
+            }
         }
 
         .header_btn1_style:hover{
@@ -83,6 +124,10 @@
             line-height: 126%;
             letter-spacing: 0%;
             transition: transform 1s ease;
+
+            @media screen and (max-width: 493px) {
+                margin-left: 10px;
+            }
         }
 
         .header_btn2_style:hover{
@@ -94,12 +139,120 @@
     }
 }
 
+.burger{
+    margin: 40px;
+    cursor: pointer;
+    display: none;
+
+    @media screen and (max-width: 1248px) {
+        display: block;
+    }
+}
+
+
 .hr_style{
     color: lightgray;
     width: 1400px;
 
-    @media only screen and (min-width: 1200px) {
+    @media screen and (max-width: 1410px) {
+        width: 1200px;
+    }
+
+    @media screen and (max-width: 1215px) {
+        width: 1100px;
+    }
+
+    @media screen and (max-width: 1110px) {
+        width: 1000px;
+    }
+
+    @media screen and (max-width: 1010px) {
         width: 900px;
+    }
+
+    @media screen and (max-width: 910px) {
+        width: 800px;
+    }
+
+    @media screen and (max-width: 810px) {
+        width: 700px;
+    }
+
+    @media screen and (max-width: 710px) {
+        width: 600px;
+    }
+
+    @media screen and (max-width: 605px) {
+        width: 500px;
+    }
+
+    @media screen and (max-width: 550px) {
+        width: 400px;
+    }
+
+    @media screen and (max-width: 406px) {
+        width: 340px;
+    }
+
+    @media screen and (max-width: 340px) {
+        width: 280px;
     }
 }
 
+.random_block{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1000;
+    border: 2px solid rgb(182, 209, 251);
+    background: white;
+    border-radius: 100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .logo{
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        width: 190px;
+
+    }
+
+    .nav_links_1{
+        color: rgb(56, 127, 245);
+        cursor: pointer;
+        font-family: DM Sans;
+        font-size: 32px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .nav_links_2{
+        color: rgb(56, 127, 245);
+        cursor: pointer;
+        font-family: DM Sans;
+        font-size: 32px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .nav_links_3{
+        color: rgb(56, 127, 245);
+        cursor: pointer;
+        font-family: DM Sans;
+        font-size: 32px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .nav_links_4{
+        color: rgb(56, 127, 245);
+        cursor: pointer;
+        font-family: DM Sans;
+        font-size: 32px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+}
