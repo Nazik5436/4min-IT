@@ -9,6 +9,10 @@
   margin: 0 auto;
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -314,15 +318,225 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  gap: 70px;
+  gap: 200px;
 }
 .section_1 .section_1_first_btn {
   margin-top: 150px;
+  background: none;
+  border: 1px solid rgb(182, 188, 205);
+  border-radius: 15px;
   color: rgb(75, 81, 98);
   font-family: Inter;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   line-height: 160%;
   letter-spacing: 0%;
   text-align: center;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+}
+.section_1 .section_1_first_btn .section_1_first_btn_content {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 3px 10px 0px 10px;
+}
+.section_1 .section_1_first_btn .section_1_first_btn_content .star {
+  width: 17px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section_1 .section_1_first_btn:hover {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+}
+.section_1 .section_1_title {
+  margin-top: 20px;
+  font-family: DM Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 116%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.section_1 .section_1_title .blue_text {
+  color: rgb(42, 136, 244);
+}
+.section_1 .section_1_par {
+  margin-top: 20px;
+  color: rgb(75, 81, 98);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.section_1 .section_1_second_btn {
+  margin: 20px 12px 0px 0px;
+  color: rgb(255, 255, 255);
+  background: none;
+  border: none;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 122%;
+  letter-spacing: 0%;
+  text-align: center;
+  background: rgb(56, 127, 245);
+  border-radius: 15px;
+  width: 203px;
+  height: 48px;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+  margin-bottom: 20px;
+}
+.section_1 .section_1_second_btn:hover {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+.section_1 .section_1_third_btn {
+  color: rgb(52, 56, 68);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 122%;
+  letter-spacing: 0%;
+  text-align: center;
+  background: none;
+  border: 1px solid rgb(210, 213, 226);
+  border-radius: 15px;
+  width: 177px;
+  height: 48px;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+  margin-bottom: 180px;
+}
+.section_1 .section_1_third_btn:hover {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+.section_1 .section_1_img .section_1_first_img {
+  margin: 85px 0px 0px 0px;
+  padding: 0px 30px 25px 0px;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+}
+.section_1 .section_1_img .section_1_first_img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.section_1 .section_1_img .section_1_second_img {
+  padding: 0px 30px 25px 0px;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+}
+.section_1 .section_1_img .section_1_second_img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.section_1 .section_1_img .section_1_third_img {
+  padding: 0px 28px 0px 0px;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+}
+.section_1 .section_1_img .section_1_third_img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.section_1 .section_1_img .section_1_fourth_img {
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+}
+.section_1 .section_1_img .section_1_fourth_img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.section_2 .section_2_par {
+  color: rgb(75, 81, 98);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.section_2 .section_2_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 1000px;
+}
+.section_2 .section_2_logo .section_2_bear_logo {
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+}
+.section_2 .section_2_logo .section_2_bear_logo:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.section_2 .section_2_logo .section_2_but_logo {
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+}
+.section_2 .section_2_logo .section_2_but_logo:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.section_2 .section_2_logo .section_2_earth_logo {
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+}
+.section_2 .section_2_logo .section_2_earth_logo:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.section_2 .section_2_logo .section_2_xz_logo {
+  margin-top: 10px;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+}
+.section_2 .section_2_logo .section_2_xz_logo:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.section_2 .section_2_logo .section_2_circle_logo {
+  margin-top: 5px;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+}
+.section_2 .section_2_logo .section_2_circle_logo:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
