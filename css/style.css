@@ -115,8 +115,6 @@
   }
 }
 .header .header_btn_display .header_btn1_style:hover {
-  color: white;
-  background-color: rgb(56, 127, 245);
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
@@ -144,8 +142,6 @@
   }
 }
 .header .header_btn_display .header_btn2_style:hover {
-  color: rgb(56, 127, 245);
-  background: white;
   border: 1px solid rgb(182, 209, 251);
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
@@ -308,4 +304,25 @@
   .random_block .nav_links_4 {
     font-size: 45px;
   }
+}
+
+.section_1 {
+  padding-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 70px;
+}
+.section_1 .section_1_first_btn {
+  margin-top: 150px;
+  color: rgb(75, 81, 98);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: center;
 }
