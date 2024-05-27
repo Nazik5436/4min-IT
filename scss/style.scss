@@ -220,6 +220,7 @@
     transform: translate(-50%, -50%);
 
     .close{
+        cursor: pointer;
         position: absolute;
         top: 0;
         right: 0;
@@ -279,4 +280,4 @@
         @media screen and (max-width: 380px) {
             font-size: 45px;
         }
-    }
+    }    

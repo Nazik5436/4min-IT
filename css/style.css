@@ -245,6 +245,7 @@
           transform: translate(-50%, -50%);
 }
 .random_block .close {
+  cursor: pointer;
   position: absolute;
   top: 0;
   right: 0;
