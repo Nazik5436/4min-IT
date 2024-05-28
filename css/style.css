@@ -670,3 +670,54 @@ html {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
+.section_3 .section_3_osnova_title {
+  padding: 16px 0px 96px 0px;
+  color: rgb(28, 31, 37);
+  font-family: DM Sans;
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 116%;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 508px;
+}
+.section_3 .section_3_first_div {
+  width: 465px;
+  height: 100px;
+  margin-bottom: 20px;
+  border: none;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  -webkit-transition: border-color 0.5s ease;
+  transition: border-color 0.5s ease;
+}
+.section_3 .section_3_first_div .section_3_first_div_display {
+  padding: 10px;
+}
+.section_3 .section_3_first_div .section_3_first_div_display .third_1_title {
+  color: rgb(28, 31, 37);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.section_3 .section_3_first_div .section_3_first_div_display .third_1_icon {
+  fill: #ff0000;
+  width: 18px;
+}
+.section_3 .section_3_first_div .section_3_first_div_display .third_1_par {
+  color: rgb(75, 81, 98);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 452px;
+}
+.section_3 .section_3_first_div:hover {
+  border: 1px solid rgb(56, 127, 245);
+  border-radius: 12px;
+}
