@@ -329,7 +329,7 @@ html {
   margin-top: 150px;
   background: none;
   border: 1px solid rgb(182, 188, 205);
-  border-radius: 15px;
+  border-radius: 50px;
   color: rgb(75, 81, 98);
   font-family: Inter;
   font-size: 15px;
@@ -449,6 +449,9 @@ html {
     margin-right: 15px;
   }
 }
+.section_1 .section_1_third_btn .play {
+  padding-right: 8px;
+}
 .section_1 .section_1_third_btn:hover {
   -webkit-transform: scale(1.08);
           transform: scale(1.08);
@@ -466,9 +469,9 @@ html {
   transition: transform 1s ease;
   transition: transform 1s ease, -webkit-transform 1s ease;
 }
-@media screen and (max-width: 947px) {
+@media screen and (max-width: 970px) {
   .section_1 .section_1_img .section_1_first_img {
-    margin-top: 200px;
+    margin-top: 160px;
   }
 }
 .section_1 .section_1_img .section_1_first_img:hover {
@@ -643,4 +646,27 @@ html {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 200px 0px 256px 15px;
+}
+.section_3 .section_3_first_btn {
+  color: rgb(75, 81, 98);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: center;
+  background: none;
+  width: 161px;
+  height: 26px;
+  border-radius: 30px;
+  border: 1px solid rgb(182, 188, 205);
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+}
+.section_3 .section_3_first_btn:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
