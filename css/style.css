@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .wrapper {
   max-width: 1440px;
   display: -webkit-box;
@@ -7,10 +11,6 @@
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0 auto;
-}
-
-body {
-  scroll-behavior: smooth;
 }
 
 .header {
@@ -320,6 +320,11 @@ body {
           justify-content: space-between;
   gap: 200px;
 }
+@media screen and (max-width: 340px) {
+  .section_1 {
+    margin-left: 50px;
+  }
+}
 .section_1 .section_1_first_btn {
   margin-top: 150px;
   background: none;
@@ -336,6 +341,16 @@ body {
   transition: -webkit-transform 1s ease;
   transition: transform 1s ease;
   transition: transform 1s ease, -webkit-transform 1s ease;
+}
+@media screen and (max-width: 330px) {
+  .section_1 .section_1_first_btn {
+    display: none;
+  }
+}
+@media screen and (max-width: 420px) {
+  .section_1 .section_1_first_btn {
+    width: 300px;
+  }
 }
 .section_1 .section_1_first_btn .section_1_first_btn_content {
   -webkit-box-align: center;
@@ -362,6 +377,11 @@ body {
   letter-spacing: 0%;
   text-align: left;
 }
+@media screen and (max-width: 944px) {
+  .section_1 .section_1_title {
+    width: 350px;
+  }
+}
 .section_1 .section_1_title .blue_text {
   color: rgb(42, 136, 244);
 }
@@ -374,6 +394,11 @@ body {
   line-height: 160%;
   letter-spacing: 0%;
   text-align: left;
+}
+@media screen and (max-width: 946px) {
+  .section_1 .section_1_par {
+    width: 300px;
+  }
 }
 .section_1 .section_1_second_btn {
   margin: 20px 12px 0px 0px;
@@ -417,11 +442,21 @@ body {
   transition: -webkit-transform 1s ease;
   transition: transform 1s ease;
   transition: transform 1s ease, -webkit-transform 1s ease;
-  margin-bottom: 180px;
+  margin-bottom: 230px;
+}
+@media screen and (max-width: 973px) {
+  .section_1 .section_1_third_btn {
+    margin-right: 15px;
+  }
 }
 .section_1 .section_1_third_btn:hover {
   -webkit-transform: scale(1.08);
           transform: scale(1.08);
+}
+@media screen and (max-width: 900px) {
+  .section_1 .section_1_img {
+    display: none;
+  }
 }
 .section_1 .section_1_img .section_1_first_img {
   margin: 85px 0px 0px 0px;
@@ -430,6 +465,11 @@ body {
   transition: -webkit-transform 1s ease;
   transition: transform 1s ease;
   transition: transform 1s ease, -webkit-transform 1s ease;
+}
+@media screen and (max-width: 947px) {
+  .section_1 .section_1_img .section_1_first_img {
+    margin-top: 200px;
+  }
 }
 .section_1 .section_1_img .section_1_first_img:hover {
   -webkit-transform: scale(1.1);
@@ -442,6 +482,11 @@ body {
   transition: transform 1s ease;
   transition: transform 1s ease, -webkit-transform 1s ease;
 }
+@media screen and (max-width: 1408px) {
+  .section_1 .section_1_img .section_1_second_img {
+    display: none;
+  }
+}
 .section_1 .section_1_img .section_1_second_img:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
@@ -452,6 +497,11 @@ body {
   transition: -webkit-transform 1s ease;
   transition: transform 1s ease;
   transition: transform 1s ease, -webkit-transform 1s ease;
+}
+@media screen and (max-width: 1408px) {
+  .section_1 .section_1_img .section_1_third_img {
+    display: none;
+  }
 }
 .section_1 .section_1_img .section_1_third_img:hover {
   -webkit-transform: scale(1.1);
@@ -478,6 +528,12 @@ body {
   text-align: center;
   margin-bottom: 30px;
 }
+@media screen and (max-width: 746px) {
+  .section_2 .section_2_par {
+    width: 350px;
+    text-align: center;
+  }
+}
 .section_2 .section_2_logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -486,13 +542,27 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   gap: 50px;
-  margin-bottom: 1000px;
+}
+@media screen and (max-width: 800px) {
+  .section_2 .section_2_logo {
+    display: block;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
 }
 .section_2 .section_2_logo .section_2_bear_logo {
   -webkit-transition: -webkit-transform 1s ease;
   transition: -webkit-transform 1s ease;
   transition: transform 1s ease;
   transition: transform 1s ease, -webkit-transform 1s ease;
+}
+@media screen and (max-width: 800px) {
+  .section_2 .section_2_logo .section_2_bear_logo {
+    padding-bottom: 15px;
+  }
 }
 .section_2 .section_2_logo .section_2_bear_logo:hover {
   -webkit-transform: scale(1.2);
@@ -504,6 +574,11 @@ body {
   transition: transform 1s ease;
   transition: transform 1s ease, -webkit-transform 1s ease;
 }
+@media screen and (max-width: 800px) {
+  .section_2 .section_2_logo .section_2_but_logo {
+    padding-bottom: 15px;
+  }
+}
 .section_2 .section_2_logo .section_2_but_logo:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
@@ -513,6 +588,11 @@ body {
   transition: -webkit-transform 1s ease;
   transition: transform 1s ease;
   transition: transform 1s ease, -webkit-transform 1s ease;
+}
+@media screen and (max-width: 800px) {
+  .section_2 .section_2_logo .section_2_earth_logo {
+    padding-bottom: 15px;
+  }
 }
 .section_2 .section_2_logo .section_2_earth_logo:hover {
   -webkit-transform: scale(1.2);
@@ -525,6 +605,11 @@ body {
   transition: transform 1s ease;
   transition: transform 1s ease, -webkit-transform 1s ease;
 }
+@media screen and (max-width: 800px) {
+  .section_2 .section_2_logo .section_2_xz_logo {
+    padding-bottom: 15px;
+  }
+}
 .section_2 .section_2_logo .section_2_xz_logo:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
@@ -536,7 +621,26 @@ body {
   transition: transform 1s ease;
   transition: transform 1s ease, -webkit-transform 1s ease;
 }
+@media screen and (max-width: 800px) {
+  .section_2 .section_2_logo .section_2_circle_logo {
+    padding-bottom: 15px;
+  }
+}
+@media screen and (max-width: 930px) {
+  .section_2 .section_2_logo .section_2_circle_logo {
+    display: none;
+  }
+}
 .section_2 .section_2_logo .section_2_circle_logo:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+}
+
+.section_3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }

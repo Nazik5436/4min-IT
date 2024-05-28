@@ -1,3 +1,9 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+
 .wrapper{
     max-width: 1440px;
     display: flex;
@@ -11,9 +17,7 @@
                                             // HEADER
 
 
-body{
-    scroll-behavior: smooth;
-}
+
 
 @mixin nav_links{
     color: rgb(75, 81, 98);
@@ -292,6 +296,10 @@ body{
     justify-content: space-between;
     gap: 200px;
 
+    @media screen and (max-width: 340px) {
+        margin-left: 50px;
+    }
+
     .section_1_first_btn{
         margin-top: 150px;
         background: none;
@@ -304,7 +312,15 @@ body{
         line-height: 160%;
         letter-spacing: 0%;
         text-align: center;
-        transition: transform 1s ease;  
+        transition: transform 1s ease; 
+
+        @media screen and (max-width: 330px) {
+            display: none;
+        }
+        
+        @media screen and (max-width: 420px) {
+            width: 300px;
+        }
 
         .section_1_first_btn_content{
             align-items: center;
@@ -328,6 +344,10 @@ body{
         letter-spacing: 0%;
         text-align: left;
 
+        @media screen and (max-width: 944px) {
+            width: 350px;   
+           }
+
         .blue_text{
             color: rgb(42, 136, 244);
         }
@@ -342,6 +362,10 @@ body{
         line-height: 160%;
         letter-spacing: 0%;
         text-align: left;
+
+        @media screen and (max-width: 946px) {
+            width: 300px;
+           }
     }
 
     .section_1_second_btn{
@@ -381,7 +405,11 @@ body{
         width: 177px;
         height: 48px;
         transition: transform 1s ease;
-        margin-bottom: 180px;
+        margin-bottom: 230px;
+
+        @media screen and (max-width: 973px) {
+            margin-right: 15px;   
+           }
     }
 
     .section_1_third_btn:hover{
@@ -390,11 +418,19 @@ body{
 
 
     .section_1_img{
+
+        @media screen and (max-width: 900px) {
+            display: none;
+           }
         
         .section_1_first_img{
             margin: 85px 0px 0px 0px;
             padding: 0px 30px 25px 0px;
             transition: transform 1s ease;
+
+            @media screen and (max-width: 947px) {
+                margin-top: 200px; 
+               }
         }
 
         .section_1_first_img:hover{
@@ -404,6 +440,10 @@ body{
         .section_1_second_img{
             padding: 0px 30px 25px 0px;
             transition: transform 1s ease;
+
+            @media screen and (max-width: 1408px) {
+                display: none;   
+               }
         }
 
         .section_1_second_img:hover{
@@ -413,6 +453,10 @@ body{
         .section_1_third_img{
             padding: 0px 28px 0px 0px;
             transition: transform 1s ease;
+
+            @media screen and (max-width: 1408px) {
+                display: none;   
+               }
         }
 
         .section_1_third_img:hover{
@@ -431,6 +475,7 @@ body{
 
 
 .section_2{
+    
 
     .section_2_par{
         color: rgb(75, 81, 98);
@@ -441,16 +486,30 @@ body{
         letter-spacing: 0%;
         text-align: center;
         margin-bottom: 30px;
+
+        @media screen and (max-width: 746px) {
+            width: 350px;
+            text-align: center;
+           }
     }
 
     .section_2_logo{
         display: flex;
         justify-content: space-between;
         gap: 50px;
-        margin-bottom: 1000px;
+
+         @media screen and (max-width: 800px) {
+             display: block;
+             flex-direction: column;
+             text-align: center;
+            }
 
         .section_2_bear_logo{
             transition: transform 1s ease;
+
+            @media screen and (max-width: 800px) {
+                padding-bottom: 15px;
+               }
         }
 
         .section_2_bear_logo:hover{
@@ -459,6 +518,10 @@ body{
 
         .section_2_but_logo{
             transition: transform 1s ease;
+
+            @media screen and (max-width: 800px) {
+                padding-bottom: 15px;
+               }
         }
 
         .section_2_but_logo:hover{
@@ -467,6 +530,10 @@ body{
 
         .section_2_earth_logo{
             transition: transform 1s ease;
+
+            @media screen and (max-width: 800px) {
+                padding-bottom: 15px;
+               }
         }
 
         .section_2_earth_logo:hover{
@@ -476,6 +543,10 @@ body{
         .section_2_xz_logo{
             margin-top: 10px;
             transition: transform 1s ease;
+
+            @media screen and (max-width: 800px) {
+                padding-bottom: 15px;
+               }
         }
 
         .section_2_xz_logo:hover{
@@ -485,10 +556,24 @@ body{
         .section_2_circle_logo{
             margin-top: 5px;
             transition: transform 1s ease;
+
+            @media screen and (max-width: 800px) {
+                padding-bottom: 15px;
+               }
+
+            @media screen and (max-width: 930px) {
+                display: none;
+               }
         }
 
         .section_2_circle_logo:hover{
             transform: scale(1.2);
         }
     }
+}
+
+
+.section_3{
+    display: flex;
+    justify-content: space-between;
 }
