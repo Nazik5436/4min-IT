@@ -207,7 +207,7 @@ html{
 }
 
 
-
+// FIXED BLOCK (BURGER)
 
     .random_block{
         width: 90%;
@@ -289,6 +289,8 @@ html{
         }
     }
 }
+
+// SECTION #1
 
 .section_1{
     padding-left: 30px;
@@ -479,6 +481,7 @@ html{
     }
 }
 
+// SECTION #2
 
 .section_2{
     
@@ -578,6 +581,9 @@ html{
     }
 }
 
+// SECTION #3
+
+    // SECTION #3 FIRST
 
 .section_3{
     display: flex;
@@ -641,8 +647,7 @@ html{
             }
     
             .third_1_icon{
-                fill: #ff0000;
-                width: 18px;
+                color: aqua;
             }
     
             .third_1_par{
@@ -659,6 +664,156 @@ html{
     }
 
     .section_3_first_div:hover{
+        border: 1px solid rgb(56, 127, 245);
+        border-radius: 12px;
+    }
+
+    // SECTION #3 SECOND
+     
+    .section_3_second_div{
+        width: 465px;
+        height: 100px;
+        margin-bottom: 20px;
+        border: none;
+        border: 1px solid transparent;
+        border-radius: 12px;
+        transition: border-color 0.5s ease;
+        
+
+        .section_3_second_div_display{
+            padding: 10px;
+
+
+            .third_2_title{
+                color: rgb(28, 31, 37);
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 160%;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+    
+            .third_2_icon{
+                color: rgb(52, 56, 68);
+                padding-right: 3px;
+                width: 18px;
+            }
+    
+            .third_2_par{
+                color: rgb(75, 81, 98);
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 160%;
+                letter-spacing: 0%;
+                text-align: left;
+                width: 452px;
+            }
+        } 
+    }
+
+    .section_3_second_div:hover{
+        border: 1px solid rgb(56, 127, 245);
+        border-radius: 12px;
+    }
+
+    // SECTION #3 THIRD
+    
+    .section_3_third_div{
+        width: 465px;
+        height: 100px;
+        margin-bottom: 20px;
+        border: none;
+        border: 1px solid transparent;
+        border-radius: 12px;
+        transition: border-color 0.5s ease;
+        
+
+        .section_3_third_div_display{
+            padding: 10px;
+
+
+            .third_3_title{
+                color: rgb(28, 31, 37);
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 160%;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+    
+            .third_2_icon{
+                color: rgb(52, 56, 68);
+                padding-right: 3px;
+                width: 18px;
+            }
+    
+            .third_3_par{
+                color: rgb(75, 81, 98);
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 160%;
+                letter-spacing: 0%;
+                text-align: left;
+                width: 452px;
+            }
+        } 
+    }
+
+    .section_3_third_div:hover{
+        border: 1px solid rgb(56, 127, 245);
+        border-radius: 12px;
+    }
+
+    // SECTION #3 FOURTH
+
+    .section_3_fourth_div{
+        width: 465px;
+        height: 100px;
+        margin-bottom: 20px;
+        border: none;
+        border: 1px solid transparent;
+        border-radius: 12px;
+        transition: border-color 0.5s ease;
+        
+
+        .section_3_fourth_div_display{
+            padding: 10px;
+
+
+            .third_4_title{
+                color: rgb(28, 31, 37);
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 160%;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+    
+            .third_2_icon{
+                color: rgb(52, 56, 68);
+                padding-right: 3px;
+                width: 18px;
+            }
+    
+            .third_4_par{
+                color: rgb(75, 81, 98);
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 160%;
+                letter-spacing: 0%;
+                text-align: left;
+                width: 452px;
+            }
+        } 
+    }
+
+    .section_3_fourth_div:hover{
         border: 1px solid rgb(56, 127, 245);
         border-radius: 12px;
     }
