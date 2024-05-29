@@ -413,6 +413,10 @@ html{
             margin-right: 15px;   
            }
 
+           @media screen and (max-width: 900px) {
+            margin-bottom: 100px;   
+           }
+
            .play{
             padding-right: 8px;
            }
@@ -588,12 +592,13 @@ html{
 .section_3{
     display: flex;
     justify-content: space-between;
-    margin: 200px 0px 256px 15px;
+    padding-top: 100px;
     gap: 200px;
 
     @media screen and (max-width: 1300px) {
         display: flex;
         justify-content: space-between;
+        margin: 0 auto;
         gap: 100px;
        }
 
@@ -605,6 +610,7 @@ html{
 
        @media screen and (max-width: 1115px) {
         display: flex;
+        margin: 0 auto;
         text-align: center;
         align-items: center;
         flex-direction: column;
@@ -642,15 +648,6 @@ html{
         letter-spacing: 0%;
         text-align: left;
         width: 508px;
-
-        @media screen and (max-width: 1115px) {
-            text-align: center;           
-        }
-
-        @media screen and (max-width: 490px) {
-            width: 400px;   
-            padding-left: 60px;        
-        }
     }
 
     .section_3_first_div{
@@ -662,9 +659,6 @@ html{
         border-radius: 12px;
         transition: border-color 0.5s ease;
 
-        @media screen and (max-width: 1115px) {
-            padding-left: 30px;           
-        }
         
 
         .section_3_first_div_display{
@@ -679,11 +673,6 @@ html{
                 line-height: 160%;
                 letter-spacing: 0%;
                 text-align: left;
-
-                @media screen and (max-width: 430px) {
-                    padding-top: 20px;
-                    margin-left: 88px;        
-                }
             }
     
             .third_1_icon{
@@ -699,12 +688,6 @@ html{
                 letter-spacing: 0%;
                 text-align: left;
                 width: 452px;
-
-                @media screen and (max-width: 430px) {
-                    padding-left: 88px;
-                    width: 280px;
-                    padding-bottom: 50px;         
-                }
             }
         } 
     }
@@ -725,12 +708,6 @@ html{
         border-radius: 12px;
         transition: border-color 0.5s ease;
 
-        @media screen and (max-width: 1115px) {
-            padding-left: 30px;           
-        }
-
-        
-        
 
         .section_3_second_div_display{
             padding: 10px;
@@ -745,10 +722,7 @@ html{
                 letter-spacing: 0%;
                 text-align: left;
 
-                @media screen and (max-width: 430px) {
-                    padding-top: 30px;
-                    margin-left: 85px;        
-                }
+                
             }
     
             .third_2_icon{
@@ -766,11 +740,6 @@ html{
                 letter-spacing: 0%;
                 text-align: left;
                 width: 452px;
-
-                @media screen and (max-width: 430px) {
-                    padding-left: 88px;
-                    width: 280px;         
-                }
             }
         } 
     }
@@ -790,10 +759,6 @@ html{
         border: 1px solid transparent;
         border-radius: 12px;
         transition: border-color 0.5s ease;
-
-        @media screen and (max-width: 1115px) {
-            padding-left: 30px;           
-        }
         
 
         .section_3_third_div_display{
@@ -808,11 +773,6 @@ html{
                 line-height: 160%;
                 letter-spacing: 0%;
                 text-align: left;
-
-                @media screen and (max-width: 430px) {
-                    padding-top: 45px;
-                    margin-left: 88px;        
-                }
             }
     
             .third_2_icon{
@@ -831,12 +791,6 @@ html{
                 text-align: left;
                 width: 452px;
 
-                @media screen and (max-width: 430px) {
-                    margin-left: 88px;
-                    width: 300px;         
-                }
-
-                
             }
         } 
     }
@@ -856,10 +810,6 @@ html{
         border: 1px solid transparent;
         border-radius: 12px;
         transition: border-color 0.5s ease;
-
-        @media screen and (max-width: 1115px) {
-            padding-left: 30px;           
-        }
         
 
         .section_3_fourth_div_display{
@@ -875,10 +825,6 @@ html{
                 letter-spacing: 0%;
                 text-align: left;
 
-                @media screen and (max-width: 430px) {
-                    padding-top: 55px;
-                    margin-left: 88px;        
-                }
             }
     
             .third_2_icon{
@@ -896,12 +842,6 @@ html{
                 letter-spacing: 0%;
                 text-align: left;
                 width: 452px;
-
-                @media screen and (max-width: 430px) {
-                    margin-left: 88px;
-                    padding-bottom: 40px;
-                    width: 300px;         
-                }
             }
         } 
     }
@@ -925,20 +865,6 @@ html{
             text-align: left;
             width: 476px;
             margin: 0px 0px 20px 0px;
-
-            @media screen and (max-width: 1115px) {
-                width: 300px;
-                text-align: center;
-                padding-left: 135px;           
-            }
-
-            @media screen and (max-width: 610px) {
-                padding-left: 45px;
-            }
-
-            @media screen and (max-width: 430px) {
-                padding-top: 60px;
-            }
         }
 
         .third_right_1btn{
@@ -956,10 +882,6 @@ html{
             background: rgb(56, 127, 245);
             margin: 0px 12px 84px 0px;
             transition: transform 1s ease;
-
-            @media screen and (max-width: 430px) {
-                margin-left: 45px;
-            }
         }
 
         .third_right_1btn:hover{

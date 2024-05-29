@@ -449,6 +449,11 @@ html {
     margin-right: 15px;
   }
 }
+@media screen and (max-width: 900px) {
+  .section_1 .section_1_third_btn {
+    margin-bottom: 100px;
+  }
+}
 .section_1 .section_1_third_btn .play {
   padding-right: 8px;
 }
@@ -646,7 +651,7 @@ html {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 200px 0px 256px 15px;
+  padding-top: 100px;
   gap: 200px;
 }
 @media screen and (max-width: 1300px) {
@@ -657,6 +662,7 @@ html {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    margin: 0 auto;
     gap: 100px;
   }
 }
@@ -676,6 +682,7 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin: 0 auto;
     text-align: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -720,17 +727,6 @@ html {
   text-align: left;
   width: 508px;
 }
-@media screen and (max-width: 1115px) {
-  .section_3 .section_3_osnova_title {
-    text-align: center;
-  }
-}
-@media screen and (max-width: 490px) {
-  .section_3 .section_3_osnova_title {
-    width: 400px;
-    padding-left: 60px;
-  }
-}
 .section_3 .section_3_first_div {
   width: 465px;
   height: 100px;
@@ -740,11 +736,6 @@ html {
   border-radius: 12px;
   -webkit-transition: border-color 0.5s ease;
   transition: border-color 0.5s ease;
-}
-@media screen and (max-width: 1115px) {
-  .section_3 .section_3_first_div {
-    padding-left: 30px;
-  }
 }
 .section_3 .section_3_first_div .section_3_first_div_display {
   padding: 10px;
@@ -758,12 +749,6 @@ html {
   letter-spacing: 0%;
   text-align: left;
 }
-@media screen and (max-width: 430px) {
-  .section_3 .section_3_first_div .section_3_first_div_display .third_1_title {
-    padding-top: 20px;
-    margin-left: 88px;
-  }
-}
 .section_3 .section_3_first_div .section_3_first_div_display .third_1_icon {
   color: aqua;
 }
@@ -776,13 +761,6 @@ html {
   letter-spacing: 0%;
   text-align: left;
   width: 452px;
-}
-@media screen and (max-width: 430px) {
-  .section_3 .section_3_first_div .section_3_first_div_display .third_1_par {
-    padding-left: 88px;
-    width: 280px;
-    padding-bottom: 50px;
-  }
 }
 .section_3 .section_3_first_div:hover {
   border: 1px solid rgb(56, 127, 245);
@@ -798,11 +776,6 @@ html {
   -webkit-transition: border-color 0.5s ease;
   transition: border-color 0.5s ease;
 }
-@media screen and (max-width: 1115px) {
-  .section_3 .section_3_second_div {
-    padding-left: 30px;
-  }
-}
 .section_3 .section_3_second_div .section_3_second_div_display {
   padding: 10px;
 }
@@ -814,12 +787,6 @@ html {
   line-height: 160%;
   letter-spacing: 0%;
   text-align: left;
-}
-@media screen and (max-width: 430px) {
-  .section_3 .section_3_second_div .section_3_second_div_display .third_2_title {
-    padding-top: 30px;
-    margin-left: 85px;
-  }
 }
 .section_3 .section_3_second_div .section_3_second_div_display .third_2_icon {
   color: rgb(52, 56, 68);
@@ -836,12 +803,6 @@ html {
   text-align: left;
   width: 452px;
 }
-@media screen and (max-width: 430px) {
-  .section_3 .section_3_second_div .section_3_second_div_display .third_2_par {
-    padding-left: 88px;
-    width: 280px;
-  }
-}
 .section_3 .section_3_second_div:hover {
   border: 1px solid rgb(56, 127, 245);
   border-radius: 12px;
@@ -856,11 +817,6 @@ html {
   -webkit-transition: border-color 0.5s ease;
   transition: border-color 0.5s ease;
 }
-@media screen and (max-width: 1115px) {
-  .section_3 .section_3_third_div {
-    padding-left: 30px;
-  }
-}
 .section_3 .section_3_third_div .section_3_third_div_display {
   padding: 10px;
 }
@@ -872,12 +828,6 @@ html {
   line-height: 160%;
   letter-spacing: 0%;
   text-align: left;
-}
-@media screen and (max-width: 430px) {
-  .section_3 .section_3_third_div .section_3_third_div_display .third_3_title {
-    padding-top: 45px;
-    margin-left: 88px;
-  }
 }
 .section_3 .section_3_third_div .section_3_third_div_display .third_2_icon {
   color: rgb(52, 56, 68);
@@ -894,12 +844,6 @@ html {
   text-align: left;
   width: 452px;
 }
-@media screen and (max-width: 430px) {
-  .section_3 .section_3_third_div .section_3_third_div_display .third_3_par {
-    margin-left: 88px;
-    width: 300px;
-  }
-}
 .section_3 .section_3_third_div:hover {
   border: 1px solid rgb(56, 127, 245);
   border-radius: 12px;
@@ -914,11 +858,6 @@ html {
   -webkit-transition: border-color 0.5s ease;
   transition: border-color 0.5s ease;
 }
-@media screen and (max-width: 1115px) {
-  .section_3 .section_3_fourth_div {
-    padding-left: 30px;
-  }
-}
 .section_3 .section_3_fourth_div .section_3_fourth_div_display {
   padding: 10px;
 }
@@ -930,12 +869,6 @@ html {
   line-height: 160%;
   letter-spacing: 0%;
   text-align: left;
-}
-@media screen and (max-width: 430px) {
-  .section_3 .section_3_fourth_div .section_3_fourth_div_display .third_4_title {
-    padding-top: 55px;
-    margin-left: 88px;
-  }
 }
 .section_3 .section_3_fourth_div .section_3_fourth_div_display .third_2_icon {
   color: rgb(52, 56, 68);
@@ -952,13 +885,6 @@ html {
   text-align: left;
   width: 452px;
 }
-@media screen and (max-width: 430px) {
-  .section_3 .section_3_fourth_div .section_3_fourth_div_display .third_4_par {
-    margin-left: 88px;
-    padding-bottom: 40px;
-    width: 300px;
-  }
-}
 .section_3 .section_3_fourth_div:hover {
   border: 1px solid rgb(56, 127, 245);
   border-radius: 12px;
@@ -973,23 +899,6 @@ html {
   text-align: left;
   width: 476px;
   margin: 0px 0px 20px 0px;
-}
-@media screen and (max-width: 1115px) {
-  .section_3 .third_right_div .third_right_par {
-    width: 300px;
-    text-align: center;
-    padding-left: 135px;
-  }
-}
-@media screen and (max-width: 610px) {
-  .section_3 .third_right_div .third_right_par {
-    padding-left: 45px;
-  }
-}
-@media screen and (max-width: 430px) {
-  .section_3 .third_right_div .third_right_par {
-    padding-top: 60px;
-  }
 }
 .section_3 .third_right_div .third_right_1btn {
   color: rgb(255, 255, 255);
@@ -1009,11 +918,6 @@ html {
   transition: -webkit-transform 1s ease;
   transition: transform 1s ease;
   transition: transform 1s ease, -webkit-transform 1s ease;
-}
-@media screen and (max-width: 430px) {
-  .section_3 .third_right_div .third_right_1btn {
-    margin-left: 45px;
-  }
 }
 .section_3 .third_right_div .third_right_1btn:hover {
   -webkit-transform: scale(1.1);
