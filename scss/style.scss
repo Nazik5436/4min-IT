@@ -504,12 +504,22 @@ html{
             width: 350px;
             text-align: center;
            }
+
+           @media screen and (max-width: 420px) {
+            width: 250px;
+            text-align: center;
+           }
     }
 
     .section_2_logo{
         display: flex;
         justify-content: space-between;
         gap: 50px;
+
+        @media screen and (max-width: 420px) {
+           align-items: center;
+           margin: 0 auto;
+           }
 
          @media screen and (max-width: 800px) {
              display: block;
@@ -648,6 +658,20 @@ html{
         letter-spacing: 0%;
         text-align: left;
         width: 508px;
+
+        @media screen and (max-width: 1115px) {
+            display: flex;
+            align-items: center;
+            text-align: center; 
+           }
+
+        @media screen and (max-width: 600px) {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            width: 250px;   
+            margin-left: 110px;
+           }
     }
 
     .section_3_first_div{
@@ -659,10 +683,26 @@ html{
         border-radius: 12px;
         transition: border-color 0.5s ease;
 
+        @media screen and (max-width: 1115px) {
+            display: flex;
+            align-items: center;
+            text-align: center; 
+            margin: 0 auto;
+           }
+
+           @media screen and (max-width: 500px) {
+            display: flex;
+            align-items: center;
+            text-align: center; 
+            margin: 0 auto;
+           }
+
         
 
         .section_3_first_div_display{
             padding: 10px;
+
+            
 
 
             .third_1_title{
@@ -674,6 +714,9 @@ html{
                 letter-spacing: 0%;
                 text-align: left;
             }
+
+            
+
     
             .third_1_icon{
                 color: aqua;
@@ -688,6 +731,14 @@ html{
                 letter-spacing: 0%;
                 text-align: left;
                 width: 452px;
+
+                    @media screen and (max-width: 500px) {
+                        display: flex;
+                        align-items: center;
+                        text-align: left; 
+                        margin: 0 auto;      
+                        width: 300px;
+                   }
             }
         } 
     }
@@ -707,6 +758,13 @@ html{
         border: 1px solid transparent;
         border-radius: 12px;
         transition: border-color 0.5s ease;
+
+        @media screen and (max-width: 1115px) {
+            display: flex;
+            align-items: center;
+            text-align: center; 
+            margin: 0 auto;
+           }
 
 
         .section_3_second_div_display{
@@ -759,6 +817,13 @@ html{
         border: 1px solid transparent;
         border-radius: 12px;
         transition: border-color 0.5s ease;
+
+        @media screen and (max-width: 1115px) {
+            display: flex;
+            align-items: center;
+            text-align: center; 
+            margin: 0 auto;
+           }
         
 
         .section_3_third_div_display{
@@ -810,6 +875,13 @@ html{
         border: 1px solid transparent;
         border-radius: 12px;
         transition: border-color 0.5s ease;
+
+        @media screen and (max-width: 1115px) {
+            display: flex;
+            align-items: center;
+            text-align: center; 
+            margin: 0 auto;
+           }
         
 
         .section_3_fourth_div_display{
@@ -854,6 +926,7 @@ html{
     // SECTION #3 END
 
     .third_right_div{
+        
 
         .third_right_par{
             color: rgb(75, 81, 98);
@@ -865,6 +938,24 @@ html{
             text-align: left;
             width: 476px;
             margin: 0px 0px 20px 0px;
+
+            @media screen and (max-width: 550px) {
+                width: 210px;
+                display: flex;
+                align-items: center;
+                text-align: center; 
+                margin: 0 auto;
+               }
+
+            @media screen and (max-width: 1115px) {
+                display: flex;
+                align-items: center;
+                text-align: center; 
+                margin: 0 auto;
+                padding-bottom: 15px;
+               }
+
+               
         }
 
         .third_right_1btn{
@@ -916,7 +1007,7 @@ html{
             display: flex;
             justify-content: space-between;
 
-            @media screen and (max-width: 610px) {
+            @media screen and (max-width: 1115px) {
                 display: none;
             }
 
