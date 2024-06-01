@@ -636,7 +636,7 @@ html{
         padding-top: 100px;
         gap: 300px;
 
-        @media screen and (max-width: 1300px) {
+        @media screen and (max-width: 1400px) {
             display: flex;
             justify-content: space-between;
             margin: 0 auto;
@@ -1200,6 +1200,8 @@ html{
 
 .section_4{
 
+    
+
     .section_4_first_display{
         display: flex;
         justify-content: center;
@@ -1215,6 +1217,10 @@ html{
             text-align: center;
             margin: 280px 0px 0px 0px;
             padding: 0px 0px 16px 0px;
+
+            @media screen and (max-width: 410px) {
+                margin: 100px 0px 0px 50px;
+            }
         }
 
         .section_4_par{
@@ -1227,8 +1233,18 @@ html{
             text-align: center;
             margin: 0px 0px 48px 0px;
 
-            @media screen and (max-width: 670px) {
-                width: 400px;
+            @media screen and (max-width: 675px) {
+                width: 350px;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                margin: 0 auto;
+                margin-bottom: 30px;
+            }
+
+            @media screen and (max-width: 410px) {
+                margin-left: 100px;
+                width: 250px;
             }
         }
     }
@@ -1238,6 +1254,22 @@ html{
         justify-content: space-between;
         gap: 24px;
         padding-bottom: 200px;
+
+        @media screen and (max-width: 455px) {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 0 auto;
+        }
+
+        @media screen and (max-width: 854px) {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin: 0 auto;
+        }
         
 
         .com_div_1{
@@ -1251,6 +1283,18 @@ html{
                 display: none;
             }
 
+            @media screen and (max-width: 870px) {
+                display: block;
+                justify-content: center;
+                margin: 0 auto;
+                flex-direction: column;
+            }
+
+            @media screen and (max-width: 410px) {
+                margin-left: 100px;
+                width: 250px;
+            }
+
             .fourth_logo{
                 align-items: center;
                 display: flex;
@@ -1262,6 +1306,12 @@ html{
                 @include com_par;
                 padding: 48px 42px 150px 42px;
                 width: 320px;
+
+                @media screen and (max-width: 410px) {
+                    font-size: 17px;
+                    padding: 25px 25px 70px 25px;
+                    width: 200px;
+                }
              }
 
              .fourth_ava{
@@ -1308,6 +1358,13 @@ html{
                 @include com_par;
                 padding: 48px 42px 150px 42px;
                 width: 320px;
+
+                @media screen and (max-width: 410px) {
+                    text-align: center;
+                    justify-content: center;
+                    padding: 0 auto;
+                    width: 50px;
+                }
              }
 
              .fourth_ava{
@@ -1391,6 +1448,11 @@ html{
                 margin: 0 auto;
             }
 
+            @media screen and (max-width: 410px) {
+                margin-left: 100px;
+                width: 250px;
+            }
+
             .fourth_logo{
                 align-items: center;
                 display: flex;
@@ -1402,6 +1464,12 @@ html{
                 @include com_par;
                 padding: 48px 42px 150px 42px;
                 width: 320px;
+
+                @media screen and (max-width: 410px) {
+                    font-size: 17px;
+                    padding: 25px 25px 100px 25px;
+                    width: 200px;
+                }
              }
 
              .fourth_ava{
