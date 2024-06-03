@@ -7,6 +7,8 @@ html{
 .wrapper{
     max-width: 1440px;
     display: flex;
+    align-items: center;
+    text-align: center;
     justify-content: center;
     margin: 0 auto;
 
@@ -295,6 +297,8 @@ html{
 
 .wrapper{
     max-width: 1440px;
+    align-items: center;
+    text-align: left;
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -1556,22 +1560,51 @@ html{
             transform: scale(1.1);
         }
     }
-
-
+    }
 }
 
 
+.section_5_osnova{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
 
+    .section_5{
 
+        .section_5_but{
+            width: 147px;
+            height: 38px;
+            border: 1px solid rgb(182, 188, 205);
+            border-radius: 20px;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            padding: 0 auto;
+            cursor: pointer;
+            color: rgb(75, 81, 98);
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 160%;
+            letter-spacing: 0%;
+            text-align: center; 
 
+            .section_5_icon{
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+                padding: 0 auto;
+            }
+        }
 
+        .section_5_title{
 
+        }
 
+        .section_5_par{
 
-
-
-
-
-
-
+        }
+    }
 }
