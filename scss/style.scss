@@ -1384,7 +1384,7 @@ html{
         }
 
         .com_div_1:hover{
-            transform: scale(1.1);
+            transform: scale(1.06);
         }
 
         .com_div_2{
@@ -1437,7 +1437,7 @@ html{
         }
 
         .com_div_2:hover{
-            transform: scale(1.1);
+            transform: scale(1.06);
         }
     
         .com_div_3{
@@ -1483,7 +1483,7 @@ html{
         }
 
         .com_div_3:hover{
-            transform: scale(1.1);
+            transform: scale(1.06);
         }
 
         .com_div_4{
@@ -1557,7 +1557,7 @@ html{
         }
 
         .com_div_4:hover{
-            transform: scale(1.1);
+            transform: scale(1.06);
         }
     }
     }
@@ -1625,7 +1625,9 @@ html{
             line-height: 160%;
             letter-spacing: 0%;
             text-align: center; 
+            background: none;
             transition: transform 1s ease;
+
 
             .section_5_icon{
                 display: absolute;
@@ -1672,25 +1674,134 @@ html{
             gap: 32px;
             margin: 60px 0px 0px 0px;
 
+            @media screen and (max-width: 1200px){
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 0 auto;
+            }
+
             .cover_box{
+                flex-wrap: wrap;
+                border: 1px solid rgb(210, 213, 226);
+                border-radius: 16px;
                 width: 548px;
                 height: 373px;
+                padding: 0px 0px 32px 0px;
+                transition: transform 1s ease;
 
                 .cover_img{
-                    padding: 0px 0px 16px 0px;
+                    width: 500px;
+                    height: 160px;
+                    padding: 24px 0px 16px 0px;
                     }
-        
         
                     .cover_first_par{
                         @include cover_first_par;
-        
+                        padding: 0px 0px 16px 26px;
+                    }
+
+                    .cover_title{
+                        @include cover_title;
+                        padding: 0px 0px 0px 26px;
+                    }
+
+                    .cover_second_par{
+                        @include cover_second_par;
+                        padding: 0px 0px 0px 26px;
+                        width: 500px;
+                    }
+            }
+        }
+
+
+
+
+        .cower_line_2{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            gap: 32px;
+            margin: 60px 0px 0px 0px;
+
+            .cover_box{
+                flex-wrap: wrap;
+                border: 1px solid rgb(210, 213, 226);
+                border-radius: 16px;
+                width: 548px;
+                height: 373px;
+                transition: transform 1s ease;
+
+                .cover_img{
+                    width: 500px;
+                    height: 160px;
+                    padding: 24px 0px 16px 0px;
                     }
         
+                    .cover_first_par{
+                        @include cover_first_par;
+                        padding: 0px 0px 16px 26px;
+                    }
+
+                    .cover_title{
+                        @include cover_title;
+                        padding: 0px 0px 0px 26px;
+                    }
+
+                    .cover_second_par{
+                        @include cover_second_par;
+                        padding: 0px 0px 0px 26px;
+                        width: 500px;
+                    }
             }
-            
+        }
 
-            
 
+
+
+        .cower_line_3{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            gap: 32px;
+            margin: 60px 0px 0px 0px;
+
+            .cover_box{
+                flex-wrap: wrap;
+                border: 1px solid rgb(210, 213, 226);
+                border-radius: 16px;
+                width: 548px;
+                height: 373px;
+                transition: transform 1s ease;
+
+                .cover_img{
+                    width: 500px;
+                    height: 160px;
+                    padding: 24px 0px 16px 0px;
+                    }
+        
+                    .cover_first_par{
+                        @include cover_first_par;
+                        padding: 0px 0px 16px 26px;
+                    }
+
+                    .cover_title{
+                        @include cover_title;
+                        padding: 0px 0px 0px 26px;
+                    }
+
+                    .cover_second_par{
+                        @include cover_second_par;
+                        padding: 0px 0px 0px 26px;
+                        width: 500px;
+                    }
+            }
+        }
+
+        .cover_box:hover{
+            transform: scale(1.08);
         }
     }
 }

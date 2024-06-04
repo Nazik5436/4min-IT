@@ -1598,8 +1598,8 @@ html {
   text-align: center;
 }
 .wrapper .section_4 .section_4_comment_display .com_div_1:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.06);
+          transform: scale(1.06);
 }
 .wrapper .section_4 .section_4_comment_display .com_div_2 {
   width: 400px;
@@ -1680,8 +1680,8 @@ html {
   text-align: center;
 }
 .wrapper .section_4 .section_4_comment_display .com_div_2:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.06);
+          transform: scale(1.06);
 }
 .wrapper .section_4 .section_4_comment_display .com_div_3 {
   width: 400px;
@@ -1752,8 +1752,8 @@ html {
   text-align: center;
 }
 .wrapper .section_4 .section_4_comment_display .com_div_3:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.06);
+          transform: scale(1.06);
 }
 .wrapper .section_4 .section_4_comment_display .com_div_4 {
   width: 400px;
@@ -1864,8 +1864,8 @@ html {
   text-align: center;
 }
 .wrapper .section_4 .section_4_comment_display .com_div_4:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.06);
+          transform: scale(1.06);
 }
 
 .section_5_osnova {
@@ -1905,6 +1905,7 @@ html {
   line-height: 160%;
   letter-spacing: 0%;
   text-align: center;
+  background: none;
   -webkit-transition: -webkit-transform 1s ease;
   transition: -webkit-transform 1s ease;
   transition: transform 1s ease;
@@ -1960,12 +1961,38 @@ html {
   gap: 32px;
   margin: 60px 0px 0px 0px;
 }
+@media screen and (max-width: 1200px) {
+  .section_5_osnova .section_5 .cower_line_1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+  }
+}
 .section_5_osnova .section_5 .cower_line_1 .cover_box {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border: 1px solid rgb(210, 213, 226);
+  border-radius: 16px;
   width: 548px;
   height: 373px;
+  padding: 0px 0px 32px 0px;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
 }
 .section_5_osnova .section_5 .cower_line_1 .cover_box .cover_img {
-  padding: 0px 0px 16px 0px;
+  width: 500px;
+  height: 160px;
+  padding: 24px 0px 16px 0px;
 }
 .section_5_osnova .section_5 .cower_line_1 .cover_box .cover_first_par {
   color: rgb(45, 102, 196);
@@ -1975,4 +2002,154 @@ html {
   line-height: 140%;
   letter-spacing: 0%;
   text-align: left;
+  padding: 0px 0px 16px 26px;
+}
+.section_5_osnova .section_5 .cower_line_1 .cover_box .cover_title {
+  color: rgb(28, 31, 37);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 142%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 0px 0px 0px 26px;
+}
+.section_5_osnova .section_5 .cower_line_1 .cover_box .cover_second_par {
+  color: rgb(75, 81, 98);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 0px 0px 0px 26px;
+  width: 500px;
+}
+.section_5_osnova .section_5 .cower_line_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  gap: 32px;
+  margin: 60px 0px 0px 0px;
+}
+.section_5_osnova .section_5 .cower_line_2 .cover_box {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border: 1px solid rgb(210, 213, 226);
+  border-radius: 16px;
+  width: 548px;
+  height: 373px;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+}
+.section_5_osnova .section_5 .cower_line_2 .cover_box .cover_img {
+  width: 500px;
+  height: 160px;
+  padding: 24px 0px 16px 0px;
+}
+.section_5_osnova .section_5 .cower_line_2 .cover_box .cover_first_par {
+  color: rgb(45, 102, 196);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 0px 0px 16px 26px;
+}
+.section_5_osnova .section_5 .cower_line_2 .cover_box .cover_title {
+  color: rgb(28, 31, 37);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 142%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 0px 0px 0px 26px;
+}
+.section_5_osnova .section_5 .cower_line_2 .cover_box .cover_second_par {
+  color: rgb(75, 81, 98);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 0px 0px 0px 26px;
+  width: 500px;
+}
+.section_5_osnova .section_5 .cower_line_3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  gap: 32px;
+  margin: 60px 0px 0px 0px;
+}
+.section_5_osnova .section_5 .cower_line_3 .cover_box {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border: 1px solid rgb(210, 213, 226);
+  border-radius: 16px;
+  width: 548px;
+  height: 373px;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+}
+.section_5_osnova .section_5 .cower_line_3 .cover_box .cover_img {
+  width: 500px;
+  height: 160px;
+  padding: 24px 0px 16px 0px;
+}
+.section_5_osnova .section_5 .cower_line_3 .cover_box .cover_first_par {
+  color: rgb(45, 102, 196);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 0px 0px 16px 26px;
+}
+.section_5_osnova .section_5 .cower_line_3 .cover_box .cover_title {
+  color: rgb(28, 31, 37);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 142%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 0px 0px 0px 26px;
+}
+.section_5_osnova .section_5 .cower_line_3 .cover_box .cover_second_par {
+  color: rgb(75, 81, 98);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 0px 0px 0px 26px;
+  width: 500px;
+}
+.section_5_osnova .section_5 .cover_box:hover {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
 }
