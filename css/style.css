@@ -2269,3 +2269,22 @@ html {
 .section_6_osnova .section_6 .cover_library_1 .cover_library_div .cover_library_img {
   border-radius: 17px;
 }
+.section_6_osnova .section_6 .cover_library_1 .cover_library_div .cover_library_par {
+  color: rgb(75, 81, 98);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 0px 0px 12px 0px;
+}
+.section_6_osnova .section_6 .cover_library_1 .cover_library_div .cover_library_title {
+  color: rgb(28, 31, 37);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 142%;
+  letter-spacing: 0%;
+  text-align: left;
+}

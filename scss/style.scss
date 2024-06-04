@@ -1824,6 +1824,27 @@ html{
 
                     // SECTION #6
 
+@mixin cover_libr_title {
+    color: rgb(28, 31, 37);
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 142%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+@mixin cover_libr_par{
+    color: rgb(75, 81, 98);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
 
 .section_6_osnova{
     display: flex;
@@ -1902,11 +1923,12 @@ html{
                 }
 
                 .cover_library_par{
-
+                    @include cover_libr_par;
+                    padding: 0px 0px 12px 0px;
                 }
 
                 .cover_library_title{
-
+                    @include cover_libr_title;
                 }
             }
 
