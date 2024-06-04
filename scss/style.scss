@@ -1606,6 +1606,7 @@ html{
     margin: 0 auto;
 
     .section_5{
+        margin: 112px 0px 164px 0px;
 
         .section_5_but{
             width: 147px;
@@ -1725,6 +1726,13 @@ html{
             gap: 32px;
             margin: 60px 0px 0px 0px;
 
+            @media screen and (max-width: 1200px){
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 0 auto;
+            }
+
             .cover_box{
                 flex-wrap: wrap;
                 border: 1px solid rgb(210, 213, 226);
@@ -1768,6 +1776,13 @@ html{
             gap: 32px;
             margin: 60px 0px 0px 0px;
 
+            @media screen and (max-width: 1200px){
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 0 auto;
+            }
+
             .cover_box{
                 flex-wrap: wrap;
                 border: 1px solid rgb(210, 213, 226);
@@ -1803,5 +1818,99 @@ html{
         .cover_box:hover{
             transform: scale(1.08);
         }
+    }
+}
+
+
+                    // SECTION #6
+
+
+.section_6_osnova{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+
+
+    .section_6{
+        margin: 112px 0px 0px 0px;
+
+        .cover_libr_first{
+            
+            .cov_libr_but{
+                width: 86px;
+                height: 38px;
+                background: none;
+                border: 1px solid rgb(182, 188, 205);
+                border-radius: 20px;
+                color: rgb(75, 81, 98);
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 160%;
+                letter-spacing: 0%;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+                margin: 0 auto;
+
+                .libr_icon{
+                    padding: 0px 5px 0px 0px;
+                }
+            }
+
+            .libr_title{
+                color: rgb(28, 31, 37);
+                font-family: DM Sans;
+                font-size: 39px;
+                font-weight: 700;
+                line-height: 116%;
+                letter-spacing: 0%;
+                text-align: center;
+                margin: 0 auto;
+                padding: 16px 0px 16px 0px;
+            }
+
+            .libr_par{
+                width: 700px;
+                color: rgb(75, 81, 98);
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 160%;
+                letter-spacing: 0%;
+                text-align: center;
+                margin: 0 auto;
+                padding: 0px 0px 80px 0px;
+            }
+        }
+
+        .cover_library_1{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            gap: 40px;
+
+            .cover_library_div{
+
+
+                .cover_library_img{
+                    border-radius: 17px;
+                }
+
+                .cover_library_par{
+
+                }
+
+                .cover_library_title{
+
+                }
+            }
+
+        }
+
     }
 }

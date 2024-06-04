@@ -1881,6 +1881,9 @@ html {
           align-items: center;
   margin: 0 auto;
 }
+.section_5_osnova .section_5 {
+  margin: 112px 0px 164px 0px;
+}
 .section_5_osnova .section_5 .section_5_but {
   width: 147px;
   height: 38px;
@@ -2039,6 +2042,21 @@ html {
   gap: 32px;
   margin: 60px 0px 0px 0px;
 }
+@media screen and (max-width: 1200px) {
+  .section_5_osnova .section_5 .cower_line_2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+  }
+}
 .section_5_osnova .section_5 .cower_line_2 .cover_box {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -2101,6 +2119,21 @@ html {
   gap: 32px;
   margin: 60px 0px 0px 0px;
 }
+@media screen and (max-width: 1200px) {
+  .section_5_osnova .section_5 .cower_line_3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+  }
+}
 .section_5_osnova .section_5 .cower_line_3 .cover_box {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -2152,4 +2185,87 @@ html {
 .section_5_osnova .section_5 .cover_box:hover {
   -webkit-transform: scale(1.08);
           transform: scale(1.08);
+}
+
+.section_6_osnova {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+.section_6_osnova .section_6 {
+  margin: 112px 0px 0px 0px;
+}
+.section_6_osnova .section_6 .cover_libr_first .cov_libr_but {
+  width: 86px;
+  height: 38px;
+  background: none;
+  border: 1px solid rgb(182, 188, 205);
+  border-radius: 20px;
+  color: rgb(75, 81, 98);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+.section_6_osnova .section_6 .cover_libr_first .cov_libr_but .libr_icon {
+  padding: 0px 5px 0px 0px;
+}
+.section_6_osnova .section_6 .cover_libr_first .libr_title {
+  color: rgb(28, 31, 37);
+  font-family: DM Sans;
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 116%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 16px 0px 16px 0px;
+}
+.section_6_osnova .section_6 .cover_libr_first .libr_par {
+  width: 700px;
+  color: rgb(75, 81, 98);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0px 0px 80px 0px;
+}
+.section_6_osnova .section_6 .cover_library_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  gap: 40px;
+}
+.section_6_osnova .section_6 .cover_library_1 .cover_library_div .cover_library_img {
+  border-radius: 17px;
 }
