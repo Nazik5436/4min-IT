@@ -1929,7 +1929,7 @@ html{
 
                 .cover_library_par{
                     @include cover_libr_par;
-                    padding: 0px 0px 12px 0px;
+                    padding: 20px 0px 12px 0px;
                 }
 
                 .cover_library_title{
@@ -1955,7 +1955,7 @@ html{
 
                 .cover_library_par{
                     @include cover_libr_par;
-                    padding: 0px 0px 12px 0px;
+                    padding: 20px 0px 12px 0px;
                 }
 
                 .cover_library_title{
@@ -1968,3 +1968,106 @@ html{
 
     }
 }
+
+
+                    // FOOTER
+
+
+@mixin footer_title{
+    color: rgb(28, 31, 37);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+}             
+
+
+@mixin footer_par{
+    color: rgb(75, 81, 98);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 122%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.footer_osnova{
+    margin: 255px 0px 0px 0px;
+    border-top: 1px solid rgb(210, 213, 226);
+
+    .footer_logo{
+        padding: 40px 0px 64px 390px;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        width: 1128px;
+
+        .About{
+            flex-wrap: wrap;
+            .footer_title{
+                @include footer_title;
+                padding: 0px 0px 16px 0px;
+            }
+            .footer_par{
+                @include footer_par;
+                padding: 0px 0px 7px 0px;
+            }
+        }
+
+        .Resources{
+            .footer_title{
+                @include footer_title;
+                padding: 0px 0px 16px 0px;
+            }
+            .footer_par{
+                @include footer_par;
+                padding: 0px 0px 7px 0px;
+            }
+        }
+
+        .Support{
+            .footer_title{
+                @include footer_title;
+                padding: 0px 0px 16px 0px;
+            }
+            .footer_par{
+                @include footer_par;
+                padding: 0px 0px 7px 0px;
+            }
+        }
+
+        .Connect{
+            .footer_title{
+                @include footer_title;
+                padding: 0px 0px 16px 0px;
+            }
+            .footer_par{
+                @include footer_par;
+                padding: 0px 0px 7px 0px;
+            }
+            .footer_icon{
+                padding: 0px 8px 0px 0px;
+            }
+        }
+    }
+
+    .footer_down{
+        color: rgb(98, 105, 129);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0%;
+        text-align: left;
+        padding: 133px 0px 40px 390px;
+    }
+}
+
+

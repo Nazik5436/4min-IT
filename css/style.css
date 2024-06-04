@@ -2286,7 +2286,7 @@ html {
   line-height: 140%;
   letter-spacing: 0%;
   text-align: left;
-  padding: 0px 0px 12px 0px;
+  padding: 20px 0px 12px 0px;
 }
 .section_6_osnova .section_6 .cover_library_1 .cover_library_div .cover_library_title {
   width: 317px;
@@ -2322,7 +2322,7 @@ html {
   line-height: 140%;
   letter-spacing: 0%;
   text-align: left;
-  padding: 0px 0px 12px 0px;
+  padding: 20px 0px 12px 0px;
 }
 .section_6_osnova .section_6 .cover_library_2 .cover_library_div .cover_library_title {
   width: 317px;
@@ -2333,4 +2333,122 @@ html {
   line-height: 142%;
   letter-spacing: 0%;
   text-align: left;
+}
+
+.footer_osnova {
+  margin: 255px 0px 0px 0px;
+  border-top: 1px solid rgb(210, 213, 226);
+}
+.footer_osnova .footer_logo {
+  padding: 40px 0px 64px 390px;
+}
+.footer_osnova .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  width: 1128px;
+}
+.footer_osnova .footer .About {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.footer_osnova .footer .About .footer_title {
+  color: rgb(28, 31, 37);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 0px 0px 16px 0px;
+}
+.footer_osnova .footer .About .footer_par {
+  color: rgb(75, 81, 98);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 122%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 0px 0px 7px 0px;
+}
+.footer_osnova .footer .Resources .footer_title {
+  color: rgb(28, 31, 37);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 0px 0px 16px 0px;
+}
+.footer_osnova .footer .Resources .footer_par {
+  color: rgb(75, 81, 98);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 122%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 0px 0px 7px 0px;
+}
+.footer_osnova .footer .Support .footer_title {
+  color: rgb(28, 31, 37);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 0px 0px 16px 0px;
+}
+.footer_osnova .footer .Support .footer_par {
+  color: rgb(75, 81, 98);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 122%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 0px 0px 7px 0px;
+}
+.footer_osnova .footer .Connect .footer_title {
+  color: rgb(28, 31, 37);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 0px 0px 16px 0px;
+}
+.footer_osnova .footer .Connect .footer_par {
+  color: rgb(75, 81, 98);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 122%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 0px 0px 7px 0px;
+}
+.footer_osnova .footer .Connect .footer_icon {
+  padding: 0px 8px 0px 0px;
+}
+.footer_osnova .footer_down {
+  color: rgb(98, 105, 129);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 133px 0px 40px 390px;
 }
