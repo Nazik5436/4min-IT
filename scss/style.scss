@@ -1673,7 +1673,7 @@ html{
             align-items: center;
             margin: 0 auto;
             gap: 32px;
-            margin: 60px 0px 0px 0px;
+            margin: 60px 0px 32px 0px;
 
             @media screen and (max-width: 1200px){
                 display: flex;
@@ -1724,7 +1724,7 @@ html{
             align-items: center;
             margin: 0 auto;
             gap: 32px;
-            margin: 60px 0px 0px 0px;
+            margin: 60px 0px 32px 0px;
 
             @media screen and (max-width: 1200px){
                 display: flex;
@@ -1774,7 +1774,7 @@ html{
             align-items: center;
             margin: 0 auto;
             gap: 32px;
-            margin: 60px 0px 0px 0px;
+            margin: 60px 0px 32px 0px;
 
             @media screen and (max-width: 1200px){
                 display: flex;
@@ -1876,10 +1876,15 @@ html{
                 text-align: center;
                 justify-content: center;
                 margin: 0 auto;
+                transition: transform 1s ease;
 
                 .libr_icon{
                     padding: 0px 5px 0px 0px;
                 }
+            }
+
+            .cov_libr_but:hover{
+                transform: scale(1.1);
             }
 
             .libr_title{
@@ -1914,9 +1919,9 @@ html{
             align-items: center;
             margin: 0 auto;
             gap: 40px;
+            margin: 0px 0px 40px 0px;
 
             .cover_library_div{
-
 
                 .cover_library_img{
                     border-radius: 17px;
@@ -1928,6 +1933,33 @@ html{
                 }
 
                 .cover_library_title{
+                    width: 317px;
+                    @include cover_libr_title;
+                }
+            }
+        }
+
+        .cover_library_2{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            gap: 40px;
+
+            .cover_library_div{
+                
+
+                .cover_library_img{
+                    border-radius: 17px;
+                }
+
+                .cover_library_par{
+                    @include cover_libr_par;
+                    padding: 0px 0px 12px 0px;
+                }
+
+                .cover_library_title{
+                    width: 317px;
                     @include cover_libr_title;
                 }
             }
