@@ -1886,6 +1886,9 @@ html {
   height: 38px;
   border: 1px solid rgb(182, 188, 205);
   border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1893,7 +1896,7 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 0 auto;
+  margin: 0 auto;
   cursor: pointer;
   color: rgb(75, 81, 98);
   font-family: Inter;
@@ -1902,8 +1905,13 @@ html {
   line-height: 160%;
   letter-spacing: 0%;
   text-align: center;
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
 }
 .section_5_osnova .section_5 .section_5_but .section_5_icon {
+  display: absolute;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1911,5 +1919,60 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 0 auto;
+  padding: 0px 5px 0px 0px;
+}
+.section_5_osnova .section_5 .section_5_but:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.section_5_osnova .section_5 .section_5_title {
+  color: rgb(28, 31, 37);
+  font-family: DM Sans;
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 116%;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 16px 0px 16px 0px;
+}
+.section_5_osnova .section_5 .section_5_par {
+  width: 680px;
+  color: rgb(75, 81, 98);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 0 auto;
+}
+.section_5_osnova .section_5 .cower_line_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  gap: 32px;
+  margin: 60px 0px 0px 0px;
+}
+.section_5_osnova .section_5 .cower_line_1 .cover_box {
+  width: 548px;
+  height: 373px;
+}
+.section_5_osnova .section_5 .cower_line_1 .cover_box .cover_img {
+  padding: 0px 0px 16px 0px;
+}
+.section_5_osnova .section_5 .cower_line_1 .cover_box .cover_first_par {
+  color: rgb(45, 102, 196);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
 }
