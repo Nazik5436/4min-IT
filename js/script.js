@@ -1,8 +1,9 @@
 
 
+
 // alert('Hello world')
 
-console.log('Hello world')
+// console.log('Hello world')
 
                               //зміні
 
@@ -55,6 +56,10 @@ console.log('Hello world')
 
 //числовий 
 
+                                //Зошит
 
+let message;
+
+message = 'Привіт';
 
 
