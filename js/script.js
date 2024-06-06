@@ -62,4 +62,6 @@ let message;
 
 message = 'Привіт';
 
+alert(message);
+
 
