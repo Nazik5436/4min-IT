@@ -123,3 +123,14 @@ let rate = 25;
 let zp = hours * rate;
 
 alert(`Ваша зарплата: ${zp} доларів`);
+
+2.
+
+let price = prompt('Введіть ціну свого товару')
+
+let pdv = price - 80
+
+alert(pdv)
+
+3.
+
