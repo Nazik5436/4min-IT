@@ -64,6 +64,15 @@
 
 // alert(message);
 
+
+
+
+
+
+
+
+
+
                                                                 // Домашка
 
 
@@ -102,11 +111,11 @@ let num = 2;
 
 let result = str - num;
 
-console.log(result);
+console.log(result.toFixed(2));
 
 2.
 
-alert(`Результат: ${(10 + 5) * 2 - 7 / 3}`)
+alert(`Результат: ${(10 + 5) * 2 - 7 / 3 .toFixed(2)}`)
 
 3.
 
@@ -126,11 +135,35 @@ alert(`Ваша зарплата: ${zp} доларів`);
 
 2.
 
-let price = prompt('Введіть ціну свого товару')
+let price = prompt('Введіть ціну свого товару (грн)')
 
-let pdv = price - 80
+let percent = 0.20;
 
-alert(pdv)
+let pdv = price * percent;
+
+alert(`ПДВ складає: ${pdv.toFixed(2)} грн`)
 
 3.
 
+let grn = prompt(`Введіть ціну яку вихочите внести до обміника в гривнях`)
+
+let dolar = 40.09
+
+let obmen = grn / dolar;
+
+alert(`Свої ${grn} грн, ви зможете обміняти на ${obmen.toFixed(2)} доларів`)
+
+
+//                                                             Високий рівень
+
+1.
+
+let radius = prompt(`Введіть радіус кола в сантиметрах`)
+
+let diametr = radius * 2;
+
+let dovsina = 2 * 3.14 * radius;
+
+let ploshca = 3.14 * radius; 
+
+alert(`Якщо радіус кола = ${radius} см, то діаметр кола = ${diametr} см, довжина кола = ${dovsina} см , а площа кола = ${ploshca} см²`)
