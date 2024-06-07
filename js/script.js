@@ -102,7 +102,7 @@ let num = 2;
 
 let result = str - num;
 
-console.log(result); // Виведе 5
+console.log(result);
 
 2.
 
@@ -110,6 +110,16 @@ alert(`Результат: ${(10 + 5) * 2 - 7 / 3}`)
 
 3.
 
-let name = 'Назарій'
-alert(`Привіт ${name} !`)
+let name = 'Назарій';
+alert(`Привіт ${name} !`);
 
+                                                                // Середній рівень
+
+1.
+
+let hours = 5;
+let rate = 25;
+
+let zp = hours * rate;
+
+alert(`Ваша зарплата: ${zp} доларів`);
