@@ -74,7 +74,7 @@ let num2 = Number(prompt(`Введіть друге число:`))
 
 let visocosni = Number(prompt(`Введіть скільки днів має теперішній рік, 366 чи 365 ?`))
 
-if (visocosni % 4 === 0 && visocosni % 100 !== 0 || visocosni % 400 === 0) {
+if (visocosni / 4 ) {
     console.log("Цей рік високосний");
 } else {
     console.log("Цей рік НЕ високосний");;
