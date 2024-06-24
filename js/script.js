@@ -191,5 +191,14 @@
  console.log(result) 
 
 
+ //2
+
+
+
+ //3
+
+ 
+
+
 
 
