@@ -181,22 +181,35 @@
 
 //1 
 
- let result = 1
- let count = Number(prompt(`Введіть факторіал якого числа ви бажаєте знайти:`)) 
+//  let result = 1
+//  let count = Number(prompt(`Введіть факторіал якого числа ви бажаєте знайти:`)) 
 
- for (let index = 1; index < count+1; index++) {
-     result = result*index
- }
+//  for (let index = 1; index < count+1; index++) {
+//      result = result*index
+//  }
 
- console.log(result) 
+//  console.log(result) 
 
 
  //2
 
 
 
+
+
+
  //3
 
+
+
+
+                                                                    // Високий рівень.
+
+
+//1 
+
+
+  
  
 
 
