@@ -149,32 +149,32 @@
                                                                     // Мінімальний рівень.
 
 
-//1
+// 1
 
-// for (let index = 0; index < 6; index++) {
-//     console.log(index);
+//  for (let index = 1; index < 6; index++) {
+//      console.log(index);
     
-// }
+//  }
 
 
 
 //2
 
-// let sum = 0;
-// for (let index = 1; index <= 10; index++) {
-//     sum += index;
-// }
+//  let sum = 0;
+//  for (let index = 1; index <= 10; index++) {
+//      sum += index;
+//  }
 
-// console.log(sum);
+//  console.log(sum);
 
 
 //3
 
-// for (let index = 0; index < 11; index++) {
-//          if (index % 2 == 0 && index != 0) {
-//             console.log(index) 
-//          }
-//      }
+//  for (let index = 0; index < 11; index++) {
+//           if (index % 2 == 0 && index != 0) {
+//              console.log(index) 
+//           }
+//       }
 
 
                                                                     // Середній рівень.
@@ -193,11 +193,20 @@
 
  //2
 
+ let a = 0
+ let b = 1;
+ console.log(a)  
+ console.log(b)  
 
+ for (let index = 2; index < 10; index++) {
+    let next = a + b
+    console.log(next)
+    a = b
+    b = next  
+    
+ }
 
-
-
-
+ 
  //3
 
 
