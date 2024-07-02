@@ -100,10 +100,51 @@
 
 // 2
 
-function toUpperCase(str) {
-    return str.toUpperCase();
+// function toUpperCase(str) {
+//     return str.toUpperCase();
+// }
+
+// let inputString = "Я ваше не вдупляю цей JS !!!";
+// let upperCaseString = toUpperCase(inputString);
+// console.log(upperCaseString); 
+
+//3
+
+// function suma(a, b) {
+//     return a + b;
+// }
+
+// let number1 = 5;
+// let number2 = 10;
+// let sum = suma(number1, number2);
+// console.log(sum);
+
+
+//                                                             Середній рівень.
+
+
+// 1
+
+// function reverseString(str) {
+//     return str.split('').reverse().join('');
+// }
+
+// let inputString = "Мама спаси від цього JS !!!";
+// let reversedString = reverseString(inputString);
+// console.log(reversedString);
+
+//2 
+
+function parnist(a){
+    let result
+    if (a % 2 == 0){
+        result = ("Та число ж парне") 
+    }else if(){
+        result = ("Шо ти ввів, число не парне")
+    }else{
+        result= ("Ти мав ввести число друже")
+    }
+    return result
 }
 
-let inputString = "Я ваше не вдупляю цей JS !!!";
-let upperCaseString = toUpperCase(inputString);
-console.log(upperCaseString); 
+console.log(parnist(prompt(`Введи своє число`)))
