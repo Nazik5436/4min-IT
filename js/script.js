@@ -155,17 +155,3 @@
 // 1
 
 //2
-
-function sumTo(n) {
-    if (n <= 0 || !Number.isInteger(n)) {
-      return "Введіть додатнє ціле число";
-    }
-    let sum = 0;
-    for (let i = 1; i <= n; i++) {
-      sum += i;
-    }
-    return sum;
-  }
-  let exampleNumber = 10;
-  console.log(sumTo(exampleNumber));
-  
