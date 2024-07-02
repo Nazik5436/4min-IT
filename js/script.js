@@ -138,13 +138,10 @@
 function parnist(a){
     let result
     if (a % 2 == 0){
-        result = ("Та число ж парне") 
-    }else if(){
-        result = ("Шо ти ввів, число не парне")
-    }else{
-        result= ("Ти мав ввести число друже")
-    }
+        result = ("Та ти шо, число парне") 
+    }else
+        result = ("Твоє число непарне, друже")
     return result
 }
 
-console.log(parnist(prompt(`Введи своє число`)))
+console.log(parnist(Number(prompt(`Введи своє число`))))
