@@ -135,13 +135,13 @@
 
 //2 
 
-function parnist(a){
-    let result
-    if (a % 2 == 0){
-        result = ("Та ти шо, число парне") 
-    }else
-        result = ("Твоє число непарне, друже")
-    return result
-}
+// function parnist(a){
+//     let result
+//     if (a % 2 == 0){
+//         result = ("Та ти шо, число парне") 
+//     }else
+//         result = ("Твоє число непарне, друже")
+//     return result
+// }
 
-console.log(parnist(Number(prompt(`Введи своє число`))))
+// console.log(parnist(Number(prompt(`Введи своє число`))))
