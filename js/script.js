@@ -138,10 +138,34 @@
 // function parnist(a){
 //     let result
 //     if (a % 2 == 0){
-//         result = ("Та ти шо, число парне") 
+//         result = ("Та ти шо, число парне !") 
 //     }else
 //         result = ("Твоє число непарне, друже")
 //     return result
 // }
 
 // console.log(parnist(Number(prompt(`Введи своє число`))))
+
+// 3 
+
+
+//                                                             Високий рівень.
+
+
+// 1
+
+//2
+
+function sumTo(n) {
+    if (n <= 0 || !Number.isInteger(n)) {
+      return "Введіть додатнє ціле число";
+    }
+    let sum = 0;
+    for (let i = 1; i <= n; i++) {
+      sum += i;
+    }
+    return sum;
+  }
+  let exampleNumber = 10;
+  console.log(sumTo(exampleNumber));
+  
