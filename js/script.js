@@ -100,11 +100,10 @@
 
 // 2
 
-function ryadok(str) {
-    return str.ryadok();
+function toUpperCase(str) {
+    return str.toUpperCase();
 }
-    
-let text = String(prompt(`Введіть свій текст `));
-let random = ryadok(text);
-console.log(random);
 
+let inputString = "Я ваше не вдупляю цей JS !!!";
+let upperCaseString = toUpperCase(inputString);
+console.log(upperCaseString); 
