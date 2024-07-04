@@ -1,7 +1,7 @@
 let user = {
-    name: "Volodymyr",   //ключі
-    age: 46,
-    city: "Kriviy Rig",
+    name: "Volodymyr",   //ключ
+    age: 46,             //ключ
+    city: "Kriviy Rig",  //ключ
 }
  
 console.log(user.age)  //доступ
@@ -29,18 +29,32 @@ for(let key in user){
 }
 
 
-
 let user3 = {
-    name: "Volodymyr",   //ключі
-    surname: "Zelya",
+    name: "Volodymyr",   //ключ
+    surname: "Zelensky",
     age: 46,
     city: "Kriviy Rig",
 
     fuulName(){
         return `Fullname ${this.name} ${this.surname}`
-        console.log(`Fullname ${this.name} ${this.surname}`)
     }
-
 } 
 
 console.log(user3.fuulName()) 
+
+
+
+////////////////////////////////
+
+
+let codes ={
+    "49" : "Німеччина",
+    "41" : "Ціейцарія",
+    "44" : "Великобританія",
+    "48" : "Польща",
+    "1" : "США",
+};
+
+for (let code in codes) {
+    console.log(code);
+}
