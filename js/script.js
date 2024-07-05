@@ -46,15 +46,37 @@ console.log(user3.fuulName())
 
 ////////////////////////////////
 
+//1
 
 let codes ={
     "49" : "Німеччина",
-    "41" : "Ціейцарія",
+    "41" : "Швейцарія",
     "44" : "Великобританія",
     "48" : "Польща",
     "1" : "США",
 };
 
 for (let code in codes) {
-    console.log(code);
+    console.log(codes);
 }
+
+//2 Множення всіх числових властивостей на 2
+
+let menu = {
+    first: 200,
+    second: 150,
+    title: "My menue"
+}
+
+const multiply = (obj) => {
+    for (const key in obj) {
+        if(typeof obj[key] === 'number'){
+            obj[key] *= 2
+        }
+        
+    }
+}
+
+multiply(menu)
+
+console.log(menu)
