@@ -116,9 +116,7 @@
 
 
                                                             // Мінімальний рівень.
-
-//1 
-
+ 
 let user = {
     name: "Nazar",
     surname: "Melnyk",
@@ -129,18 +127,57 @@ user.email = "nazarm7722@gmail.com"
 console.log(user.email)
 console.log(user)
 
+console.log(user['name']);
+console.log(user['surname']);
+console.log(user['email']);
+
                                                             // Середній рівень.
+
+// 1
 
 let product = {
     name: "Kubik-rubik",
     price: 200,
     number: 15,
-}
+};
 
-const multiply = (user) => {
-        for (const key in user) {
-            if(typeof user[key] === 'number'){
-                user[key] *= 2
-            }
-        }
-    }
+function sum(product) {
+    return product.price * product.number;
+  }
+
+console.log(sum(product))
+
+
+// 2 
+
+let car = {
+    mark: "Toyota",
+    model: "Camry",
+    year: 2024
+  };
+
+  function isOlderThan5Years(car) {
+    const currentYear = new Date().getFullYear();
+    const age = currentYear - car.year;
+    return age > 5;
+  }
+  console.log(isOlderThan5Years(car));
+
+// 3
+
+let book = {
+    name: "Енеїда",
+    author: "Іван Котляревський",
+    year: 1842
+  };
+  
+  function printBookInfo(book) {
+    const bookInfo = `Назва: ${book.name} Автор: ${book.author} Рік видання: ${book.year}`;
+    console.log(bookInfo);
+  }
+
+  printBookInfo(book); 
+
+
+                                                            // Високий рівень.
+
