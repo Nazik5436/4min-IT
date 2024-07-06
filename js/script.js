@@ -157,9 +157,12 @@ let car = {
   };
 
   function isOlderThan5Years(car) {
-    const currentYear = new Date().getFullYear();
-    const age = currentYear - car.year;
-    return age > 5;
+    // const currentYear = new Date().getFullYear();
+    // const age = currentYear - car.year;
+    // return age > 5;
+    if(car.year > 5){
+      return true
+    }
   }
   console.log(isOlderThan5Years(car));
 
@@ -172,7 +175,7 @@ let book = {
   };
   
   function printBookInfo(book) {
-    const bookInfo = `Назва: ${book.name} Автор: ${book.author} Рік видання: ${book.year}`;
+    const bookInfo = `Назва книги: ${book.name} Автор: ${book.author} Рік видання: ${book.year}`;
     console.log(bookInfo);
   }
 
