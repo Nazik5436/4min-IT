@@ -80,3 +80,8 @@ const multiply = (obj) => {
 multiply(menu)
 
 console.log(menu)
+
+
+//3
+
+let user4 :()
