@@ -18,4 +18,14 @@ newElement.innerText = 'Діма вийшов з тюрьми !'
 
 element.appendChild(newElement) // пуш елемента в батьківський контейнер 
 
+
 newElement.classList.add('small__text') //додавання класу 
+
+newElement.classList.remove('small__text') //видалення класу
+
+newElement.remove() //видалення самого елементу
+
+
+//1 Картка юзера за допомогою js 
+
+
