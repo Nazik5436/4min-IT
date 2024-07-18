@@ -1,4 +1,4 @@
-const element = document.querySelector('.dima') // ловимо елемент
+const element = document.querySelector('.nazar') // ловимо елемент
 
 const dima = {
     name: 'Назар',
@@ -26,6 +26,13 @@ newElement.classList.remove('small__text') //видалення класу
 newElement.remove() //видалення самого елементу
 
 
-// Картка юзера за допомогою js 
+                                                                // Домашка
 
+                                                            // Мінімальний рівень
+                                                            
+                                                            
+const element = document.querySelector('.dz')
 
+const dz = {
+    zavd1:
+}
