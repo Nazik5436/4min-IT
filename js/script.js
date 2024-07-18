@@ -24,15 +24,3 @@ newElement.classList.add('small__text') //додавання класу
 newElement.classList.remove('small__text') //видалення класу
 
 newElement.remove() //видалення самого елементу
-
-
-                                                                // Домашка
-
-                                                            // Мінімальний рівень
-                                                            
-                                                            
-const element = document.querySelector('.dz')
-
-const dz = {
-    zavd1:
-}
