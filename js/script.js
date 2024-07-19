@@ -111,6 +111,7 @@ function changeColor() {
 
 document.getElementById("colorButton").addEventListener("click", changeColor);
 
+
 // 2
 
 function clearInput() {
@@ -151,6 +152,39 @@ let currentLight = 0;
     }
 
     setInterval(changeLight, 2000);
+
+
+
+
+
+    const red = document.querySelector('.stoplightred')
+    const yellow = document.querySelector('.stoplightyellow')
+    const green = document.querySelector('.stoplightgreen')
+    const btn = document.querySelector('.stoplightbtn')
+
+    let colorNow = "red"
+    btn.addEventListener("click", (event) =>{
+        switch(colorNow){
+            case "red":
+                red.style.opacity = 1
+                yellow.style.opacity = 0.2
+                green.style.opacity = 0.2
+                colorNow = "yellow"
+                break
+                case "yellow":
+                    red.style.opacity = 0.2
+                    yellow.style.opacity = 1
+                    green.style.opacity = 0.2
+                    colorNow = "green"
+                    break
+                    case "green":
+                        red.style.opacity = 0.2
+                        yellow.style.opacity = 0.2
+                        green.style.opacity = 1
+                        colorNow = "red"
+                        break
+        }
+    })
 
 // 2 
 
