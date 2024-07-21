@@ -1,0 +1,33 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        gap: 100px;
+
+        .header__osnova__right{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin: 0 auto;
+
+            .header__right__1{
+                
+                .right__logo{
+                    color: rgb(160, 96, 86);
+                    font-family: Merriweather;
+                    font-size: 34px;
+                    font-weight: 700;
+                    line-height: 25px;
+                    letter-spacing: 2px;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
