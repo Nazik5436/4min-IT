@@ -1,31 +1,104 @@
-.wrapper{
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
+@mixin header__par{
+    color: rgb(112, 100, 88);
+    font-family: Varta;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+body{
+    scroll-behavior: smooth;
 
 
-    .header{
+    .wrapper{
         display: flex;
-        justify-content: space-between;
-        margin: 0 auto;
-        gap: 100px;
+        justify-content: center;
+        max-width: 1440px;
 
-        .header__osnova__right{
+        .header{
             display: flex;
-            justify-content: center;
-            flex-direction: column;
-            margin: 0 auto;
+            justify-content: space-between;
+            gap: 150px;
 
-            .header__right__1{
+            .header__osnova__right{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                margin: 0px 0px 0px 150px;
+
+                .header__right__1{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    margin: 0 auto;
+                    
+                    .right__logo{
+                        color: rgb(160, 96, 86);
+                        font-family: Merriweather;
+                        font-size: 34px;
+                        font-weight: 700;
+                        line-height: 25px;
+                        letter-spacing: 2px;
+                        text-align: left;
+                        margin-right: 25px;
+                    }
+
+                    .header__osnova__nav{
+                        display: flex;
+                        justify-content: space-between;
+                        gap: 25px;
+
+                        .header__nav{
+                            cursor: pointer;
+                            @include header__par;
+                        }
+                    }
+                }
+
+                .header__right__2{
+
+
+                    .right_hd{
+                        color: rgb(160, 96, 86);
+                        font-family: Varta;
+                        font-size: 14px;
+                        font-weight: 700;
+                        line-height: 20px;
+                        letter-spacing: 1px;
+                        text-align: left;
+                        margin: 125px 0px 50px 0px;
+                    }
+
+                    .right_title{
+                        color: rgb(160, 96, 86);
+                        font-family: Merriweather;
+                        font-size: 50px;
+                        font-weight: 300;
+                        line-height: 70px;
+                        letter-spacing: -0.4px;
+                        text-align: left;
+                        width: 420px;
+                    }
+
+                    .right__par{
+                        width: 420px;
+                        margin-top: 30px;
+                        @include header__par;
+                    }
+                }
+            }
+
+            .header__osnova__left{
+                display: flex;
+ 
                 
-                .right__logo{
-                    color: rgb(160, 96, 86);
-                    font-family: Merriweather;
-                    font-size: 34px;
-                    font-weight: 700;
-                    line-height: 25px;
-                    letter-spacing: 2px;
-                    text-align: left;
+
+                .header__left__picture{
+                    width: 720px;
+                    height: 900px;
                 }
             }
         }
