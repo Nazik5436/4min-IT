@@ -120,7 +120,7 @@ body .wrapper .header .header__osnova__left .header__left__picture {
   width: 720px;
   height: 900px;
 }
-body .wrapper .main .section__1 .content {
+body .wrapper .main .content {
   margin: auto;
   padding: 30px;
   width: 100%;
@@ -128,7 +128,7 @@ body .wrapper .main .section__1 .content {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-body .wrapper .main .section__1 h3 {
+body .wrapper .main h3 {
   background: #fff;
   color: #3498db;
   font-size: 36px;
