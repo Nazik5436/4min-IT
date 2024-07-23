@@ -120,7 +120,10 @@ body .wrapper .header .header__osnova__left .header__left__picture {
   width: 720px;
   height: 900px;
 }
-body .wrapper .main .content {
+body .wrapper .main .section_one {
+  background-color: rgb(243, 238, 232);
+}
+body .wrapper .main .section_one .content {
   margin: auto;
   padding: 30px;
   width: 100%;
@@ -128,7 +131,7 @@ body .wrapper .main .content {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-body .wrapper .main h3 {
+body .wrapper .main .section_one .slider_img {
   background: #fff;
   color: #3498db;
   font-size: 36px;
@@ -137,4 +140,12 @@ body .wrapper .main h3 {
   padding: 2%;
   position: relative;
   text-align: center;
+  width: 100px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
