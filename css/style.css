@@ -2,16 +2,8 @@ body {
   scroll-behavior: smooth;
 }
 body .wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  max-width: 1170px;
+  margin: 0 auto;
 }
 body .wrapper .header {
   display: -webkit-box;
@@ -132,27 +124,14 @@ body .wrapper .header .header__osnova__left .header__left__picture {
   width: 720px;
   height: 900px;
 }
-body .wrapper .main .section_one {
+body .wrapper .main .four {
   background-color: rgb(243, 238, 232);
 }
-body .wrapper .main .section_one .content {
-  margin: auto;
-  padding: 30px;
-  width: 100%;
-  max-width: 600px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+body .wrapper .main .four .four__up__item {
+  width: 458px;
+  height: 550px;
 }
-body .wrapper .main .section_one .slick-slide .image {
-  padding: 10px;
-  margin-right: 200px;
-}
-body .wrapper .main .section_one .slick-slide img {
-  border: 5px solid #000000;
-  height: 350px;
-  display: block;
-  width: 200px;
-}
-body .wrapper .main .section_one .slick-slide img.slick-loading {
-  border: 0;
+body .wrapper .main .four .four__up__item__img {
+  width: 458px;
+  height: 550px;
 }
