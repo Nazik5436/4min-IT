@@ -13,8 +13,6 @@ body{
 
 
     .wrapper{
-        max-width: 1170px;
-        margin: 0 auto;
         
         
         .header{
@@ -120,29 +118,35 @@ body{
         }
 
         .main{
+background: #000;
             
             .four{
-                background-color: rgb(243, 238, 232);
+                background: #000;
+                
+
 
                 .four__up{
-                    // padding-left: 80px;
+                    width: 100%;
                 }
 
                 .four__up__item{
                     width: 458px;
                     height: 550px;
-                    // margin-right: 30px;
+                    margin-right: 40px;
+
+                    .four__up__item__img{
+                        width: 458px;
+                        height: 550px;
+                    }
                 }
 
-                .four__up__item__img{
-                    width: 458px;
-                    height: 550px;
-                }
+                
+
+            }
                 
                   
-            }
-        }    
-    }
+        }
+    }    
 }
 
 
