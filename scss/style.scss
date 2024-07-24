@@ -10,11 +10,11 @@
 
 body{
     scroll-behavior: smooth;
-
+}
 
     .wrapper{
         
-        
+    }    
         .header{
             display: flex;
             justify-content: space-between;
@@ -118,35 +118,29 @@ body{
         }
 
         .main{
-background: #000;
+            background: #000;
+            width: 100%;
             
-            .four{
-                background: #000;
-                
-
-
-                .four__up{
-                    width: 100%;
-                }
-
-                .four__up__item{
-                    width: 458px;
-                    height: 550px;
-                    margin-right: 40px;
-
-                    .four__up__item__img{
-                        width: 458px;
-                        height: 550px;
-                    }
-                }
-
-                
-
-            }
-                
-                  
+            .content {
+                margin: auto;
+                padding: 30px;
+                width: 100%;
+                max-width: 600px;
+                box-sizing: border-box;
+              }
+              h3 {
+                background: #fff;
+                color: #3498db;
+                font-size: 36px;
+                line-height: 100px;
+                margin: 10px;
+                padding: 2%;
+                position: relative;
+                text-align: center;
+              }
+              
         }
-    }    
-}
+        
+
 
 

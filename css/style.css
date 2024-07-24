@@ -1,11 +1,8 @@
 body {
   scroll-behavior: smooth;
 }
-body .wrapper {
-  max-width: 1170px;
-  margin: 0 auto;
-}
-body .wrapper .header {
+
+.header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17,7 +14,7 @@ body .wrapper .header {
   background-color: rgb(243, 238, 232);
   gap: 150px;
 }
-body .wrapper .header .header__osnova__right {
+.header .header__osnova__right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,7 +25,7 @@ body .wrapper .header .header__osnova__right {
   text-align: center;
   margin: 0 auto;
 }
-body .wrapper .header .header__osnova__right .header__right__1 {
+.header .header__osnova__right .header__right__1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -42,7 +39,7 @@ body .wrapper .header .header__osnova__right .header__right__1 {
   margin: 0 auto;
   margin-top: 50px;
 }
-body .wrapper .header .header__osnova__right .header__right__1 .right__logo {
+.header .header__osnova__right .header__right__1 .right__logo {
   color: rgb(160, 96, 86);
   font-family: Merriweather;
   font-size: 34px;
@@ -52,7 +49,7 @@ body .wrapper .header .header__osnova__right .header__right__1 .right__logo {
   text-align: left;
   margin-right: 25px;
 }
-body .wrapper .header .header__osnova__right .header__right__1 .header__osnova__nav {
+.header .header__osnova__right .header__right__1 .header__osnova__nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -61,7 +58,7 @@ body .wrapper .header .header__osnova__right .header__right__1 .header__osnova__
           justify-content: space-between;
   gap: 25px;
 }
-body .wrapper .header .header__osnova__right .header__right__1 .header__osnova__nav .header__nav {
+.header .header__osnova__right .header__right__1 .header__osnova__nav .header__nav {
   cursor: pointer;
   color: rgb(112, 100, 88);
   font-family: Varta;
@@ -71,7 +68,7 @@ body .wrapper .header .header__osnova__right .header__right__1 .header__osnova__
   letter-spacing: 0px;
   text-align: left;
 }
-body .wrapper .header .header__osnova__right .header__right__2 .right_hd {
+.header .header__osnova__right .header__right__2 .right_hd {
   color: rgb(160, 96, 86);
   font-family: Varta;
   font-size: 14px;
@@ -81,7 +78,7 @@ body .wrapper .header .header__osnova__right .header__right__2 .right_hd {
   text-align: left;
   margin: 200px 0px 50px 0px;
 }
-body .wrapper .header .header__osnova__right .header__right__2 .right_title {
+.header .header__osnova__right .header__right__2 .right_title {
   color: rgb(160, 96, 86);
   font-family: Merriweather;
   font-size: 50px;
@@ -91,7 +88,7 @@ body .wrapper .header .header__osnova__right .header__right__2 .right_title {
   text-align: left;
   width: 420px;
 }
-body .wrapper .header .header__osnova__right .header__right__2 .right__par {
+.header .header__osnova__right .header__right__2 .right__par {
   width: 420px;
   margin: 30px 0px 377px 0px;
   color: rgb(112, 100, 88);
@@ -102,7 +99,7 @@ body .wrapper .header .header__osnova__right .header__right__2 .right__par {
   letter-spacing: 0px;
   text-align: left;
 }
-body .wrapper .header .header__osnova__right .header__right__2 .minor__title {
+.header .header__osnova__right .header__right__2 .minor__title {
   color: rgb(112, 100, 88);
   font-family: Merriweather;
   font-size: 55px;
@@ -111,7 +108,7 @@ body .wrapper .header .header__osnova__right .header__right__2 .minor__title {
   letter-spacing: -0.6px;
   text-align: left;
 }
-body .wrapper .header .header__osnova__left {
+.header .header__osnova__left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -120,18 +117,30 @@ body .wrapper .header .header__osnova__left {
           justify-content: flex-end;
   float: right;
 }
-body .wrapper .header .header__osnova__left .header__left__picture {
+.header .header__osnova__left .header__left__picture {
   width: 720px;
   height: 900px;
 }
-body .wrapper .main .four {
-  background-color: rgb(243, 238, 232);
+
+.main {
+  background: #000;
+  width: 100%;
 }
-body .wrapper .main .four .four__up__item {
-  width: 458px;
-  height: 550px;
+.main .content {
+  margin: auto;
+  padding: 30px;
+  width: 100%;
+  max-width: 600px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
-body .wrapper .main .four .four__up__item__img {
-  width: 458px;
-  height: 550px;
+.main h3 {
+  background: #fff;
+  color: #3498db;
+  font-size: 36px;
+  line-height: 100px;
+  margin: 10px;
+  padding: 2%;
+  position: relative;
+  text-align: center;
 }
