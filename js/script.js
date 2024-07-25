@@ -1,4 +1,4 @@
-const API = 'http://www.omdbapi.com/?i=tt3896198&apikey=e50baaa0'
+const API = 'http://www.omdbapi.com/?i=tt3896198&apikey=fc0a8f0c'
 
 // fetch(`${API}/posts`)
 //     .then(response => response.json()) //розпарсюєм
@@ -32,13 +32,11 @@ const SetRequest = async () =>{
         // створення картки
         const container = document.querySelector('.posts')
         let htmlContent = ''
-
-
-        data.Search.forEach(element => {
+        data.forEach(element => {
             htmlContent += `
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
-                        <h5 class="card-title">${element.title}</h5>
+                        <h5 class="card-title">${element.Title}</h5>
                         <p class="card-text">${element.body}</p>
                     </div>
                 </div>
