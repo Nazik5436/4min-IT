@@ -1,4 +1,4 @@
-const API = 'https://jsonplaceholder.typicode.com'
+const API = 'http://www.omdbapi.com/?i=tt3896198&apikey=e50baaa0'
 
 // fetch(`${API}/posts`)
 //     .then(response => response.json()) //розпарсюєм
@@ -24,15 +24,30 @@ const API = 'https://jsonplaceholder.typicode.com'
 //     .catch(error => console.error(error)) 
 
 
-const Request = async () =>{
+const SetRequest = async () =>{
     try {
-        const response = await fetch(`${API}/posts`)
+        const response = await fetch(API)
+        const data = await response.json() //розпарсюєм
+        console.log(data)
+        // створення картки
+        const container = document.querySelector('.posts')
+        let htmlContent = ''
 
-        const data = await response.json()
-        data.array.forEach(element => {
-            console.log(element)
+
+        data.Search.forEach(element => {
+            htmlContent += `
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">${element.title}</h5>
+                        <p class="card-text">${element.body}</p>
+                    </div>
+                </div>
+            `
+
+            container.innerHTML = htmlContent
         });
     } catch (error) {
         
     }
 } 
+
