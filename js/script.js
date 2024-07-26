@@ -1,4 +1,4 @@
-const API = 'http://www.omdbapi.com/?i=tt3896198&apikey=fc0a8f0c'
+const API = 'http://www.omdbapi.com/?s=Star&apikey=fc0a8f0c'
 
 // fetch(`${API}/posts`)
 //     .then(response => response.json()) //розпарсюєм
@@ -27,34 +27,36 @@ const API = 'http://www.omdbapi.com/?i=tt3896198&apikey=fc0a8f0c'
 
 
 
-// const SetRequest = async () =>{
-//     try {
-//         const response = await fetch(API)
-//         const data = await response.json() //розпарсюєм
-//         console.log(data)
-//         // створення картки
-//         const container = document.querySelector('.posts')
-//         let htmlContent = ''
-//         data.Object.forEach(element => {
-//             htmlContent += `
-//                 <div class="card" style="width: 18rem;">
-//                     <div class="card-body">
-//                         <img src="${element.Poster}" class="card-img-top" alt="...">
-//                         <h5 class="card-title">${element.Title}</h5>
-//                         <p class="card-text">${element.body}</p>
-//                     </div>
-//                 </div>
-//             `
-
-//             container.innerHTML = htmlContent
-//         });
-//     } catch (error) {
-//         console.error('error', error)
+ const SetRequest = async () =>{
+     try {
+         const response = await fetch(API)
+         const data = await response.json() 
+         console.log(data)
         
-//     }
+         const container = document.querySelector('.posts')
+         let htmlContent = ''
+         data.Search.forEach(element => {
+             htmlContent += `
+                 <div class="card" style="width: 18rem;">
+                     <div class="card-body">
+                         <img src="${element.Poster}" class="card-img-top" alt="...">
+                         <p class="card-text">${element.Type}</p>
+                         <h5 class="card-title">${element.Title}</h5>
+                         <p class="card-text">${element.Year}</p>
+                         
+                     </div>
+                 </div>
+             `
+
+             container.innerHTML = htmlContent
+         });
+     } catch (error) {
+         console.error('error', error)
+        
+     }
     
-// } 
-// SetRequest()
+ } 
+ SetRequest()
 
 
 
