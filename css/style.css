@@ -133,20 +133,18 @@ body {
 }
 .main .first {
   background-color: rgb(243, 238, 232);
+  padding-top: 45px;
 }
-.main .first .first__osnova {
-  width: 1335px;
+.main .first .first__div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 0 auto;
-  gap: 25px;
 }
-.main .first .first__osnova .first__div .first__minor__par {
-  width: 165px;
+.main .first .first__div .first__minor__par {
+  width: 100px;
   color: rgba(112, 100, 88, 0.9);
   font-family: Varta;
   font-size: 18px;
@@ -155,7 +153,21 @@ body {
   letter-spacing: 0px;
   text-align: left;
 }
+.main .first .first__osnova {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+.main .first .first__osnova .first__div {
+  position: relative;
+  display: inline-block;
+}
 .main .first .first__osnova .first__div .first__img {
+  display: block;
   width: 261.25px;
   height: 350px;
 }
@@ -166,11 +178,12 @@ body {
   font-weight: 400;
   line-height: 60px;
   letter-spacing: -0.6px;
-  text-align: center;
-  z-index: 1;
+  text-align: left;
   position: absolute;
-  top: 1230px;
-  right: 783px;
+  top: 50%;
+  left: 86%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 .main .first .first__osnova .first__div .first__par__2 {
   color: rgb(160, 96, 86);
@@ -179,11 +192,26 @@ body {
   font-weight: 400;
   line-height: 60px;
   letter-spacing: -0.6px;
-  text-align: center;
-  z-index: 1;
+  text-align: left;
   position: absolute;
-  top: 1230px;
-  right: 200px;
+  top: 50%;
+  left: 88%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.main .first .first__osnova .first__div .first__par__3 {
+  color: rgb(160, 96, 86);
+  font-family: Merriweather;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -0.6px;
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 82%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 .main .four {
   background-color: rgb(255, 255, 255);

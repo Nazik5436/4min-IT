@@ -126,7 +126,7 @@ body{
     font-weight: 400;
     line-height: 60px;
     letter-spacing: -0.6px;
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -135,29 +135,35 @@ body{
 
             .first{
                 background-color: rgb(243, 238, 232);
+                padding-top: 45px;
+
+                .first__div{
+                    display: flex;
+                    justify-content: space-between;
+
+                    .first__minor__par{
+                        width: 100px;
+                        color: rgba(112, 100, 88, 0.9);
+                        font-family: Varta;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 25px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                    }
+                }
 
                 .first__osnova{
-                    width: 1335px;
                     display: flex;
                     justify-content: space-between;
                     margin: 0 auto;
-                    gap: 25px;
 
                     .first__div{
-                        
-
-                        .first__minor__par{
-                            width: 165px;
-                            color: rgba(112, 100, 88, 0.9);
-                            font-family: Varta;
-                            font-size: 18px;
-                            font-weight: 400;
-                            line-height: 25px;
-                            letter-spacing: 0px;
-                            text-align: left;
-                        }
+                        position: relative;
+                        display: inline-block;
 
                         .first__img{
+                            display: block;
                             width: 261.25px;
                             height: 350px;
                         }
@@ -165,18 +171,26 @@ body{
 
                         .first__par__1{
                             @include first__room__par;
-                            z-index: 1;
                             position: absolute;
-                            top: 1230px;
-                            right: 783px;                            
+                            top: 50%;
+                            left: 86%;
+                            transform: translate(-50%, -50%);                          
                         }
 
                         .first__par__2{
                             @include first__room__par;
-                            z-index: 1;
                             position: absolute;
-                            top: 1230px;
-                            right: 200px; 
+                            top: 50%;
+                            left: 88%;
+                            transform: translate(-50%, -50%);
+                        }
+
+                        .first__par__3{
+                            @include first__room__par;
+                            position: absolute;
+                            top: 50%;
+                            left: 82%;
+                            transform: translate(-50%, -50%);
                         }
                     }
                 }
