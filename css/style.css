@@ -135,7 +135,7 @@ body {
   background-color: rgb(243, 238, 232);
   padding-top: 45px;
 }
-.main .first .first__div {
+.main .first .first__osnova {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -143,7 +143,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.main .first .first__div .first__minor__par {
+.main .first .first__osnova .first_osnova_one .first__minor__par {
   width: 100px;
   color: rgba(112, 100, 88, 0.9);
   font-family: Varta;
@@ -153,25 +153,25 @@ body {
   letter-spacing: 0px;
   text-align: left;
 }
-.main .first .first__osnova {
+.main .first .first__osnova .first_osnova_two {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 0 auto;
+  gap: 125px;
 }
-.main .first .first__osnova .first__div {
+.main .first .first__osnova .first_osnova_two .first__div {
   position: relative;
   display: inline-block;
 }
-.main .first .first__osnova .first__div .first__img {
+.main .first .first__osnova .first_osnova_two .first__div .first__img {
   display: block;
   width: 261.25px;
   height: 350px;
 }
-.main .first .first__osnova .first__div .first__par__1 {
+.main .first .first__osnova .first_osnova_two .first__div .first__par__1 {
   color: rgb(160, 96, 86);
   font-family: Merriweather;
   font-size: 55px;
@@ -185,7 +185,7 @@ body {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
-.main .first .first__osnova .first__div .first__par__2 {
+.main .first .first__osnova .first_osnova_two .first__div .first__par__2 {
   color: rgb(160, 96, 86);
   font-family: Merriweather;
   font-size: 55px;
@@ -199,7 +199,7 @@ body {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
-.main .first .first__osnova .first__div .first__par__3 {
+.main .first .first__osnova .first_osnova_two .first__div .first__par__3 {
   color: rgb(160, 96, 86);
   font-family: Merriweather;
   font-size: 55px;
