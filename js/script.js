@@ -3,7 +3,6 @@ const API_Avanger = 'http://www.omdbapi.com/?s=Avengers&apikey=fc0a8f0c'
 const API_Lord = 'http://www.omdbapi.com/?s=Lord+of+the+rings&apikey=fc0a8f0c'
 const API_HarryPotter = 'http://www.omdbapi.com/?s=harry+potter&apikey=fc0a8f0c'
 const API_SpiderMan = 'http://www.omdbapi.com/?s=spider+man&apikey=fc0a8f0c'
-const API_Panda = 'http://www.omdbapi.com/?t=kung+fu+panda&apikey=fc0a8f0c'
 
 // fetch(`${API}/posts`)
 //     .then(response => response.json()) //розпарсюєм
@@ -39,7 +38,6 @@ const API_Panda = 'http://www.omdbapi.com/?t=kung+fu+panda&apikey=fc0a8f0c'
         const responseThird = await fetch(API_Lord)
         const responseFourth = await fetch(API_HarryPotter)
         const responseFifth = await fetch(API_SpiderMan)
-        const responseSixth = await fetch(API_Panda)
 
 
         const dataFirst = await responseFirst.json() 
@@ -47,10 +45,9 @@ const API_Panda = 'http://www.omdbapi.com/?t=kung+fu+panda&apikey=fc0a8f0c'
         const dataThird = await responseThird.json()
         const dataFourth = await responseFourth.json()
         const dataFifth = await responseFifth.json()
-        const dataSixth = await responseSixth.json()
 
 
-        const data = [...dataFirst.Search, ...dataSecond.Search, ...dataThird.Search, ...dataFourth.Search, ...dataFifth.Search, ...dataSixth.Search]
+        const data = [...dataFirst.Search, ...dataSecond.Search, ...dataThird.Search, ...dataFourth.Search, ...dataFifth.Search]
         console.log(data)
         
          const container = document.querySelector('.posts')
