@@ -1,9 +1,78 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .posts{
     margin: 30px 0px 30px 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
-
+    gap: 25px;
+    
 }
 
+.card{
+    background: #000000;
+    color: white;
+    font-family: Poppins;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, filter 0.3s ease-in-out;
+    cursor: not-allowed;
+
+
+    .card-text{
+        padding-top: 10px;
+    }
+}
+
+.card:hover{
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2), 0 18px 50px rgba(0, 0, 0, 0.2);
+    transform: scale(1.07);
+}
+
+.card:hover .card-body {
+    filter: blur(5px);
+  }
+
+.card .card-body:hover {
+    filter: none;
+}
+
+body{
+    background: rgb(9,24,101);
+    background: radial-gradient(circle, rgba(9,24,101,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+h1{
+    font-family: Kanit;
+    display: flex;
+    justify-content: center;
+    margin: 30px; 
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 3px;
+    padding-top: 15px;
+}
+
+.list{
+    font-family: Kanit;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 3px;
+
+    .link{
+        text-decoration: none;
+        cursor: pointer;
+        color: rgba(255, 255, 255, 0.9);
+
+        .li{
+            padding-top: 30px;
+        }
+    }
+}
