@@ -54,7 +54,7 @@ const API_SpiderMan = 'http://www.omdbapi.com/?s=spider+man&apikey=fc0a8f0c'
          let htmlContent = ''
          data.forEach(element => {
              htmlContent += `
-                 <div class="card" style="width: 18rem;">
+                 <div class="card" data-imdbid="${element.imdbID}" style="width: 18rem;">
                      <div id='StarWars' class="card-body">
                          <img src="${element.Poster}" class="card-img-top" alt="...">
                          <p class="card-text">${element.Type}</p>
@@ -65,6 +65,10 @@ const API_SpiderMan = 'http://www.omdbapi.com/?s=spider+man&apikey=fc0a8f0c'
              `
 
              container.innerHTML = htmlContent
+
+             
+            
+
          });
      } catch (error) {
          console.error('error', error)
@@ -73,3 +77,13 @@ const API_SpiderMan = 'http://www.omdbapi.com/?s=spider+man&apikey=fc0a8f0c'
     
  } 
  SetRequest()
+
+ document.querySelector('.posts').addEventListener('click', async (event) => {
+    const card = event.target.closest('.card');
+    if (card) {
+        const imdbID = card.getAttribute('data-imdbID');
+        const details = await fetch(`http://www.omdbapi.com/?i=${imdbID}&apikey=fc0a8f0c`);
+        const movieDetails = await details.json();
+        console.log(movieDetails); 
+    }
+ });
