@@ -87,3 +87,4 @@ const API_SpiderMan = 'http://www.omdbapi.com/?s=spider+man&apikey=fc0a8f0c'
         console.log(movieDetails); 
     }
  });
+ 

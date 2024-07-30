@@ -16,7 +16,7 @@ html{
     color: white;
     font-family: Poppins;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, filter 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     cursor: not-allowed;
     perspective: 1000px; /* Забезпечує перспективу для 3D-ефекту */
 
@@ -33,13 +33,7 @@ html{
     transform: rotateY(180deg);
 }
 
-.card:hover .card-body {
-    filter: blur(5px);
-  }
 
-.card .card-body:hover {
-    filter: none;
-}
 
 body{
     background: rgb(9,24,101);
@@ -48,13 +42,10 @@ body{
 
 h1{
     font-family: Kanit;
-    display: flex;
-    justify-content: center;
     margin: 30px; 
     color: rgba(255, 255, 255, 0.9);
     font-size: 50px;
     font-weight: 400;
-    line-height: 25px;
     text-align: center;
     letter-spacing: 3px;
     padding-top: 15px;
@@ -66,11 +57,11 @@ h1{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    gap: 30px;
     font-family: Kanit;
     color: rgba(255, 255, 255, 0.9);
     font-size: 50px;
     font-weight: 400;
-    line-height: 25px;
     text-align: center;
     letter-spacing: 3px;
 
