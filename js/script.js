@@ -47,3 +47,29 @@ document.querySelector('.posts').addEventListener('click', async (event) => {
         console.log(movieDetails);
     }
 });
+
+// Функція для фільтрації карток
+const filterCards = (filter) => {
+    const cards = document.querySelectorAll('.card');
+    cards.forEach(card => {
+        if (filter === 'all' || card.id === filter) {
+            card.style.display = 'block';
+        } else {
+            card.style.display = 'none';
+        }
+    });
+
+    // Перейти до першого видимого постера
+    const firstVisibleCard = Array.from(cards).find(card => card.style.display === 'block');
+    if (firstVisibleCard) {
+        firstVisibleCard.scrollIntoView({ behavior: 'smooth' });
+    }
+};
+
+document.querySelectorAll('.link').forEach(link => {
+    link.addEventListener('click', (event) => {
+        event.preventDefault();
+        const filter = link.getAttribute('data-filter');
+        filterCards(filter);
+    });
+});

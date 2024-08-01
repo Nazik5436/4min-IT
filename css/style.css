@@ -83,13 +83,15 @@ h1 {
   text-align: center;
   letter-spacing: 3px;
 }
-.list .link {
+
+.link {
   text-decoration: none;
   text-align: center;
   cursor: pointer;
   color: rgba(255, 255, 255, 0.9);
 }
-.list .link .li {
+
+.li {
   width: 300px;
   text-align: center;
   margin: 0 auto;

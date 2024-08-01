@@ -1,17 +1,16 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
-.posts{
+.posts {
     margin: 30px 0px 30px 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
-    
 }
 
-.card{
+.card {
     background: #000000;
     color: white;
     font-family: Poppins;
@@ -20,13 +19,12 @@ html{
     cursor: not-allowed;
     perspective: 1000px; /* Забезпечує перспективу для 3D-ефекту */
 
-
     .card-text{
         padding-top: 10px;
     }
 }
 
-.card:hover{
+.card:hover {
     background: #000;
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2), 0 18px 50px rgba(0, 0, 0, 0.2);
     transform: scale(1.07);
@@ -34,13 +32,12 @@ html{
 }
 
 
-
-body{
+body {
     background: rgb(9,24,101);
     background: radial-gradient(circle, rgba(9,24,101,1) 0%, rgba(0,0,0,1) 100%);
 }
 
-h1{
+h1 {
     font-family: Kanit;
     margin: 30px; 
     color: rgba(255, 255, 255, 0.9);
@@ -51,7 +48,7 @@ h1{
     padding-top: 15px;
 }
 
-.list{
+.list {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -64,21 +61,21 @@ h1{
     font-weight: 400;
     text-align: center;
     letter-spacing: 3px;
+}
 
-    .link{
-        text-decoration: none;
-        text-align: center;
-        cursor: pointer;
-        color: rgba(255, 255, 255, 0.9);
+.link {
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.9);
+}
 
-        .li{
-            width: 300px;
-            text-align: center;
-            margin: 0 auto;
-            padding-top: 30px;
-            padding-bottom: 30px;
-            margin-bottom: 30px;
-            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2), 0 18px 50px rgba(0, 0, 0, 0.2);
-        }
-    }
+.li {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2), 0 18px 50px rgba(0, 0, 0, 0.2);
 }
