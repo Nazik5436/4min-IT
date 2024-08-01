@@ -85,6 +85,7 @@ h1 {
 }
 .list .link {
   text-decoration: none;
+  text-align: center;
   cursor: pointer;
   color: rgba(255, 255, 255, 0.9);
 }
