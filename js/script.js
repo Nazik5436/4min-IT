@@ -18,8 +18,9 @@ function displayNotes() {
     const noteElement = document.createElement('div');
     noteElement.classList.add('note');
     noteElement.innerHTML = `
-      <p class="note-text">${note.text}</p>
+      <p class="note-text ${note.completed ? 'note-completed' : ''}">${note.text}</p>
       <div class="note-buttons">
+        <input type="checkbox" class="note-checkbox" data-note-id="${note.id}" ${note.completed ? 'checked' : ''}>
         <button class="edit-btn" data-note-id="${note.id}">Edit</button>
         <button class="delete-btn" data-note-id="${note.id}">Delete</button>
       </div>`;
@@ -42,6 +43,15 @@ function displayNotes() {
       addBtn.removeEventListener('click', addNoteHandler);
       addBtn.addEventListener('click', () => updateNoteHandler(noteId));
     });
+
+    const checkbox = noteElement.querySelector('.note-checkbox');
+    checkbox.addEventListener('change', () => {
+      const noteId = checkbox.dataset.noteId;
+      const noteIndex = notes.findIndex((n) => n.id === Number(noteId));
+      notes[noteIndex].completed = checkbox.checked;
+      setNotesToStorage(notes);
+      displayNotes();
+    });
   });
 }
 
@@ -52,6 +62,7 @@ function addNoteHandler() {
     const newNote = {
       id: Date.now(),
       text: newNoteText,
+      completed: false,
     };
     notes.push(newNote);
     setNotesToStorage(notes);
