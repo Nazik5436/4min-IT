@@ -3,22 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Слайдер</title>
+    <title>Pagination Progress Slider</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="slider">
         <div class="slides">
-            <!-- Кожен слайд має клас slide -->
-            <div class="slide">
-                <img src="/img/21-cikavij-fakt-pro-uran.jpg" alt="Слайд 1">
-            </div>
-            <div class="slide">
-                <img src="/img/Khmel.jpg" alt="Слайд 2">
-            </div>
-            <div class="slide">
-                <img src="/img/Знімок екрана 2024-08-15 155418.jpg" alt="Слайд 3">
-            </div>
+            <div class="slide" id="slide1"><img src="/img/21-cikavij-fakt-pro-uran.jpg" alt=""></div>
+            <div class="slide" id="slide2"><img src="/img/21-cikavij-fakt-pro-uran.jpg" alt=""></div>
+            <div class="slide" id="slide3"><img src="/img/21-cikavij-fakt-pro-uran.jpg" alt=""></div>
+        </div>
+        <div class="pagination">
+            <span class="dot" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
         </div>
     </div>
 
